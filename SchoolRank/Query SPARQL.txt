@@ -1,0 +1,470 @@
+PREFIX skr: <http://www.schoolrank.org/ontology/>                       
+PREFIX schema: <https//www.schema.org/>                                 
+PREFIX : <http://www.schoolrank.org/resource/>                          
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>               
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>    
+                                                                            
+http://virtuosa.pa2.itd.cnr.it:8890/sparql                      
+                                                                                       
+                                                     
+	                                                                                                                                
+
++-------------------------------------------------------------------+
++-------------------------------------------------------------------+                                 
+                                                                                        
+QUERY SPARQL
+
++-------------------------------------------------------------------+
++-------------------------------------------------------------------+
+
+
+10 migliori scuole
+
+SELECT  ?scuola ?nome_scuola ?valutazione
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:haPlesso ?p.
+    ?scuola skr:valutazione ?valutazione.
+}
+ORDER BY DESC (?valutazione)
+LIMIT 10
+
+
+
++-------------------------------------------------------------------+  
+
+
+
+10 peggiori scuole
+
+SELECT  ?scuola ?nome_scuola ?valutazione
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:haPlesso ?p.
+    ?scuola skr:valutazione ?valutazione.
+}
+ORDER BY (?valutazione)
+LIMIT 10
+
+
+
+
++-------------------------------------------------------------------+  
+
+
+10 migliori plessi
+
+SELECT ?plesso ?nome_plesso ?valutazione
+WHERE{
+    ?plesso skr:nomeScuola ?nome_plesso.
+    ?plesso skr:valutazione ?valutazione.
+    FILTER NOT EXISTS {
+        ?plesso skr:haPlesso ?p. 
+    }
+}
+ORDER BY DESC (?valutazione)
+LIMIT 10
+
+
+
+
++-------------------------------------------------------------------+  
+
+10 peggiori plessi
+
+SELECT ?plesso ?nome_plesso ?valutazione
+WHERE{
+    ?plesso skr:nomeScuola ?nome_plesso.
+    ?plesso skr:valutazione ?valutazione.
+    FILTER NOT EXISTS {
+        ?plesso skr:haPlesso ?p. 
+    }
+}
+ORDER BY (?valutazione)
+LIMIT 10
+
++-------------------------------------------------------------------+  
+
+
+Numero scuole (principali)
+
+SELECT count(*) as ?numero_scuole
+    WHERE{
+        ?scuole skr:haPlesso ?nome_scuola.
+}
+
+
++-------------------------------------------------------------------+  
+
+Numero plessi
+
+SELECT count(?plessi) as ?numero_plessi
+WHERE{
+    ?plessi skr:comune ?o.
+    FILTER NOT EXISTS {
+        ?plessi skr:haPlesso ?p. 
+    }
+}
+
++-------------------------------------------------------------------+  
+
+
+Numero totale (scuole+plessi)
+
+SELECT count(*) as ?numero_scuole_e_plessi
+WHERE{
+    ?scuole skr:comune ?nome_scuola.
+}
+
+
+
++-------------------------------------------------------------------+  
+
+
+Valutazione plessi
+
+SELECT ?plesso ?nome_plesso ?valutazione 
+WHERE{
+    ?plesso skr:nomeScuola ?nome_plesso.
+    ?plesso skr:valutazione ?valutazione.
+    FILTER NOT EXISTS {
+        ?plesso skr:haPlesso ?o 
+    }
+}
+
++-------------------------------------------------------------------+  
+
+Valutazione scuole
+
+
+SELECT ?scuola ?nome_scuola ?valutazione 
+WHERE{
+    ?scuola skr:haPlesso ?p.
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:valutazione ?valutazione.
+}
+
+
+
+
++-------------------------------------------------------------------+  
+
+Conteggio scuole e plessi con aula magna
+
+
+SELECT count(?scuole) as ?scuole_e_plessi_con_aula_magna
+WHERE{
+    ?scuole skr:haAulaMagna ?nome_scuola.
+    FILTER (?nome_scuola = 1)
+}
+
++-------------------------------------------------------------------+  
+
+
+Conteggio plessi con aula magna
+
+
+SELECT count(?scuole) as ?plessi_con_aula_magna
+WHERE{
+    ?scuole skr:haAulaMagna ?nome_plesso.
+    FILTER (?nome_plesso = 1)
+    FILTER NOT EXISTS {
+        ?scuole skr:haPlesso ?o.
+    }
+}
+
+
++-------------------------------------------------------------------+  
+
+Scuole con aula magna
+
+SELECT ?scuola ?nome_scuola ?aula_magna
+WHERE{
+    ?scuola skr:haPlesso ?o.
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:haAulaMagna ?aula_magna.
+    FILTER(?aula_magna = 1)
+}
+
++-------------------------------------------------------------------+  
+
+
+
+Scuole e plessi con "Garibaldi"
+
+SELECT ?scuola ?nome_scuola
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    FILTER REGEX (?nome_scuola, "garibaldi", "i")
+}
+
+
++-------------------------------------------------------------------+  
+
+
+Plessi con "Garibaldi"
+
+SELECT ?plesso ?nome_plesso 
+WHERE{
+    ?plesso skr:nomeScuola ?nome_plesso.
+    FILTER REGEX (?nome_plesso, "garibaldi", "i")
+    FILTER NOT EXISTS {
+        ?plesso skr:haPlesso ?o.
+    }
+}
+
++-------------------------------------------------------------------+  
+
+
+Scuole con "Garibaldi"
+
+SELECT ?scuola ?nome_scuola 
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:haPlesso ?p.
+    FILTER REGEX (?nome_scuola, "garibaldi", "i")
+}
+
+
+
++-------------------------------------------------------------------+  
+
+Fermate vicino a
+
+SELECT ?scuole_e_plessi ?nome_scuola ?fermata
+WHERE{
+    ?scuole_e_plessi skr:nomeScuola ?nome_scuola.
+    ?scuole_e_plessi skr:vicinoA ?fermata.
+}
+
+
++-------------------------------------------------------------------+  
+
+
+Scuole e plessi di tipo primaria
+
+SELECT ?scuola ?nome_scuola ?tipo_scuola
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:tipoScuola ?tipo_scuola.
+    FILTER REGEX (?tipo_scuola, "scuola primaria", "i")
+}
+
+
++-------------------------------------------------------------------+  
+
+Plessi di tipo primaria
+
+
+
+SELECT ?plesso ?nome_plesso ?tipo_plesso
+WHERE{
+    ?plesso skr:nomeScuola ?nome_plesso.
+    ?plesso skr:tipoScuola ?tipo_plesso.
+    FILTER REGEX (?tipo_plesso, "scuola primaria", "i")
+    FILTER NOT EXISTS {
+        ?plesso skr:haPlesso ?o.
+    }
+}
+
+
+
++-------------------------------------------------------------------+  
+
+Scuole di tipo primaria
+
+SELECT ?scuola ?nome_scuola ?tipo_scuola
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:tipoScuola ?tipo_scuola.
+    ?scuola skr:haPlesso ?o.
+    FILTER REGEX (?tipo_scuola, "scuola primaria", "i")
+}
+
+
++-------------------------------------------------------------------+  
+
+Tutte le scuole e plessi non dedicate
+
+SELECT ?scuola ?nome_scuola ?dedicatoa
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:dedicataA ?dedicatoa.
+    FILTER(?dedicatoa = "None")
+}
+
+
+
++-------------------------------------------------------------------+  
+
+Tutte le scuole e plessi dedicate
+
+SELECT ?scuola ?nome_scuola ?dedicatoa
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:dedicataA ?dedicatoa.
+    FILTER(?dedicatoa != "None")
+}
+
+
++-------------------------------------------------------------------+  
+
+Tutte le scuole e plesso dedicate a un Giuseppe (a caso)
+
+SELECT ?scuola ?nome_scuola ?dedicatoa
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:dedicataA ?dedicatoa.
+    FILTER REGEX (?dedicatoa, "Giuseppe", "i")
+}
+
+
+
+
++-------------------------------------------------------------------+  
+
+Conteggio scuole e plessi dedicati
+
+
+SELECT count(*) as ?scuole_e_plessi_dedicati
+WHERE{
+    ?scuola skr:dedicataA ?dedicatoa.
+    FILTER(?dedicatoa != "None")
+}
+
+
++-------------------------------------------------------------------+  
+
+Conteggio scuole e plessi non dedicati
+
+
+SELECT count(*) as ?scuole_e_plessi_dedicati
+WHERE{
+    ?scuola skr:dedicataA ?dedicatoa.
+    FILTER(?dedicatoa = "None")
+}
+
+
++-------------------------------------------------------------------+  
+
+
+Numero totale fermate
+
+SELECT count(*) as ?numero_fermate
+    WHERE{
+        ?fermate skr:nomeFermata ?nome_fermata.
+}
+
+
++-------------------------------------------------------------------+  
+
+
+
+Tutte le fermate 'Indipendenza'
+
+
+SELECT ?fermata STR(?nome_fermata) as ?nome_fermata
+WHERE{
+    ?fermata skr:nomeFermata ?nome_fermata.
+    FILTER REGEX (?nome_fermata, "indipendenza", "i")
+}
+
+
++-------------------------------------------------------------------+  
+
+
+Tutte le fermate della 101
+
+SELECT ?fermata STR(?nome_fermata) as ?nome_fermata STR(?numero_autobus) as ?numero_autobus
+WHERE{
+    ?fermata skr:nomeFermata ?nome_fermata.
+    ?fermata skr:numeroAutobus ?numero_autobus.
+    FILTER REGEX (?numero_autobus, "101", "i")
+}
+
++-------------------------------------------------------------------+  
+
+
+Tutte le fermate di andata
+
+SELECT ?fermata STR(?nome_fermata) as ?nome_fermata ?andata
+WHERE{
+    ?fermata skr:nomeFermata ?nome_fermata.
+    ?fermata skr:andata ?andata.
+    FILTER(?andata = 1)
+}
+
+
++-------------------------------------------------------------------+  
+
+
+
+Tutte le fermate di ritorno
+
+SELECT ?fermata STR(?nome_fermata) as ?nome_fermata ?andata
+WHERE{
+    ?fermata skr:nomeFermata ?nome_fermata.
+    ?fermata skr:andata ?andata.
+    FILTER(?andata != 1)
+}
+
+
+
++-------------------------------------------------------------------+  
+
+Siti di scuole e plessi
+
+SELECT ?scuola ?nome_scuola ?sitoweb
+WHERE{
+    ?scuola skr:haSitoWeb ?sitoweb.
+    ?scuola skr:nomeScuola ?nome_scuola
+}
+
+
++-------------------------------------------------------------------+  
+
+Scuole e plessi in via x
+
+SELECT ?scuola ?nome_scuola ?via_scuola
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:coordinate ?via_scuola.
+    FILTER REGEX (?via_scuola, "malfa", "i")
+}
+
+
++-------------------------------------------------------------------+  
+
+Plessi in via x 
+
+
+SELECT ?plesso ?nome_plesso ?via_plesso
+WHERE{
+    ?plesso skr:nomeScuola ?nome_plesso.
+    ?plesso skr:coordinate ?via_plesso.
+FILTER NOT EXISTS {
+    ?plesso skr:haPlesso ?o.
+    }
+FILTER REGEX (?via_plesso, "malfa", "i")
+}
+
+
+
+
++-------------------------------------------------------------------+  
+
+
+Scuole in via x 
+
+SELECT ?scuola ?nome_scuola ?via_scuola
+WHERE{
+    ?scuola skr:nomeScuola ?nome_scuola.
+    ?scuola skr:coordinate ?via_scuola.
+    ?scuola skr:haPlesso ?o.
+    FILTER REGEX (?via_scuola, "malfa", "i")
+}
+
+
++-------------------------------------------------------------------+
+
+

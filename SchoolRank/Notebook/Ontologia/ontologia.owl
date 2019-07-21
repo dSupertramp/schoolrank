@@ -1,0 +1,350 @@
+@prefix : <http://www.schoolrank.org/ontology/ontologia.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skr: <http://www.schoolrank.org/ontology/ontologia.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@base <http://www.schoolrank.org/ontology/ontologia.owl#> .
+
+<http://www.schoolrank.org/ontology/ontologia.owl#> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  https://schema.org/GeoCoordinates
+schema:GeoCoordinates rdf:type rdfs:Datatype .
+
+
+###  https://schema.org/latitude
+schema:latitude rdf:type rdfs:Datatype .
+
+
+###  https://schema.org/longitude
+schema:longitude rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#coordinate
+skr:coordinate rdf:type owl:ObjectProperty ;
+               rdfs:domain [ rdf:type owl:Restriction ;
+                             owl:onProperty skr:Longitudine ;
+                             owl:someValuesFrom schema:GeoCoordinates
+                           ] ;
+               rdfs:range skr:Autobus ,
+                          skr:Plesso ,
+                          skr:Scuola ;
+               rdfs:comment "Identifica latitudine e longitudine di scuola, autobus e plesso" .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haPlesso
+skr:haPlesso rdf:type owl:ObjectProperty ;
+             rdfs:domain skr:Plesso ,
+                         skr:Scuola ;
+             rdfs:comment "Determina se una scuola possiede uno o più plessi" .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#vicinoA
+skr:vicinoA rdf:type owl:ObjectProperty ;
+            rdfs:domain skr:Autobus ,
+                        skr:Plesso ,
+                        skr:Scuola ;
+            rdfs:comment "Identifica la/le fermate vicino ad una scuola" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#Longitudine
+skr:Longitudine rdf:type owl:DatatypeProperty ;
+                rdfs:domain skr:Autobus ,
+                            skr:Plesso ,
+                            skr:Scuola ;
+                rdfs:range schema:longitude .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#andata
+skr:andata rdf:type owl:DatatypeProperty ;
+           rdfs:domain skr:Autobus ;
+           rdfs:range xsd:boolean ;
+           rdfs:comment """Identifica se una tratta è andata o ritorno:
+True se andata, False se ritorno""" .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#dedicataA
+skr:dedicataA rdf:type owl:DatatypeProperty ;
+              rdfs:domain skr:Plesso ,
+                          skr:Scuola ;
+              rdfs:range rdfs:Literal .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#descrizioneComune
+skr:descrizioneComune rdf:type owl:DatatypeProperty ;
+                      rdfs:domain skr:Plesso ,
+                                  skr:Scuola ;
+                      rdfs:range rdfs:Literal ;
+                      rdfs:comment "Descrizione del comune di appartenenza di una scuola" .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haAccessoRampe
+skr:haAccessoRampe rdf:type owl:DatatypeProperty ;
+                   rdfs:domain skr:Plesso ,
+                               skr:Scuola ;
+                   rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haAltriAccorgimentiDisabili
+skr:haAltriAccorgimentiDisabili rdf:type owl:DatatypeProperty ;
+                                rdfs:domain skr:Plesso ,
+                                            skr:Scuola ;
+                                rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haAscensoreDisabili
+skr:haAscensoreDisabili rdf:type owl:DatatypeProperty ;
+                        rdfs:domain skr:Plesso ,
+                                    skr:Scuola ;
+                        rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haAulaMagna
+skr:haAulaMagna rdf:type owl:DatatypeProperty ;
+                rdfs:domain skr:Plesso ,
+                            skr:Scuola ;
+                rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haCentralizzatoAria
+skr:haCentralizzatoAria rdf:type owl:DatatypeProperty ;
+                        rdfs:domain skr:Plesso ,
+                                    skr:Scuola ;
+                        rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haCentralizzatoGasolio
+skr:haCentralizzatoGasolio rdf:type owl:DatatypeProperty ;
+                           rdfs:domain skr:Plesso ,
+                                       skr:Scuola ;
+                           rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haCentralizzatoOlioCombustibili
+skr:haCentralizzatoOlioCombustibili rdf:type owl:DatatypeProperty ;
+                                    rdfs:domain skr:Plesso ,
+                                                skr:Scuola ;
+                                    rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haCodiceIstitutoRiferimento
+skr:haCodiceIstitutoRiferimento rdf:type owl:DatatypeProperty ;
+                                rdfs:domain skr:Scuola ;
+                                rdfs:range rdfs:Literal .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haCodiceScuola
+skr:haCodiceScuola rdf:type owl:DatatypeProperty ;
+                   rdfs:domain skr:Plesso ;
+                   rdfs:range rdfs:Literal .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haCondizionamentoVentilazione
+skr:haCondizionamentoVentilazione rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain skr:Plesso ,
+                                              skr:Scuola ;
+                                  rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haCorpiScaldantiElettriciAutonomi
+skr:haCorpiScaldantiElettriciAutonomi rdf:type owl:DatatypeProperty ;
+                                      rdfs:domain skr:Plesso ,
+                                                  skr:Scuola ;
+                                      rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haDescrizioneTipologiaGradoIstruzioneScuola
+skr:haDescrizioneTipologiaGradoIstruzioneScuola rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain skr:Plesso ,
+                                                            skr:Scuola ;
+                                                rdfs:range rdfs:Literal .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haImpiantoRiscaldamento
+skr:haImpiantoRiscaldamento rdf:type owl:DatatypeProperty ;
+                            rdfs:domain skr:Plesso ,
+                                        skr:Scuola ;
+                            rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haPalestraPiscina
+skr:haPalestraPiscina rdf:type owl:DatatypeProperty ;
+                      rdfs:domain skr:Plesso ,
+                                  skr:Scuola ;
+                      rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haPercorsiEsterniDisabili
+skr:haPercorsiEsterniDisabili rdf:type owl:DatatypeProperty ;
+                              rdfs:domain skr:Plesso ,
+                                          skr:Scuola ;
+                              rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haPiattaformaElevatrice
+skr:haPiattaformaElevatrice rdf:type owl:DatatypeProperty ;
+                            rdfs:domain skr:Plesso ,
+                                        skr:Scuola ;
+                            rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haPorteLarghezzaDisabili
+skr:haPorteLarghezzaDisabili rdf:type owl:DatatypeProperty ;
+                             rdfs:domain skr:Plesso ,
+                                         skr:Scuola ;
+                             rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haRiscaldamentoAltraNatura
+skr:haRiscaldamentoAltraNatura rdf:type owl:DatatypeProperty ;
+                               rdfs:domain skr:Plesso ,
+                                           skr:Scuola ;
+                               rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haScaleNorma
+skr:haScaleNorma rdf:type owl:DatatypeProperty ;
+                 rdfs:domain skr:Plesso ,
+                             skr:Scuola ;
+                 rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haServiziIgieniciDisabili
+skr:haServiziIgieniciDisabili rdf:type owl:DatatypeProperty ;
+                              rdfs:domain skr:Plesso ,
+                                          skr:Scuola ;
+                              rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haSitoWeb
+skr:haSitoWeb rdf:type owl:DatatypeProperty ;
+              rdfs:domain skr:Plesso ,
+                          skr:Scuola ;
+              rdfs:range rdfs:Literal .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haSpaziAmministrativi
+skr:haSpaziAmministrativi rdf:type owl:DatatypeProperty ;
+                          rdfs:domain skr:Plesso ,
+                                      skr:Scuola ;
+                          rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haSpaziDidattici
+skr:haSpaziDidattici rdf:type owl:DatatypeProperty ;
+                     rdfs:domain skr:Plesso ,
+                                 skr:Scuola ;
+                     rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haSuperamentoBarriereArchitettoniche
+skr:haSuperamentoBarriereArchitettoniche rdf:type owl:DatatypeProperty ;
+                                         rdfs:domain skr:Plesso ,
+                                                     skr:Scuola ;
+                                         rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#haTeleriscaldamento
+skr:haTeleriscaldamento rdf:type owl:DatatypeProperty ;
+                        rdfs:domain skr:Plesso ,
+                                    skr:Scuola ;
+                        rdfs:range xsd:boolean .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#idFermata
+skr:idFermata rdf:type owl:DatatypeProperty ;
+              rdfs:domain skr:Autobus ;
+              rdfs:range rdfs:Literal ;
+              rdfs:comment "Id per fermata" .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#idViaggio
+skr:idViaggio rdf:type owl:DatatypeProperty ;
+              rdfs:domain skr:Autobus ;
+              rdfs:range rdfs:Literal .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#latitudine
+skr:latitudine rdf:type owl:DatatypeProperty ;
+               rdfs:domain skr:Autobus ,
+                           skr:Plesso ,
+                           skr:Scuola ;
+               rdfs:range schema:latitude .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#longitudine
+skr:longitudine rdf:type owl:DatatypeProperty ;
+                rdfs:domain skr:Autobus ,
+                            skr:Plesso ,
+                            skr:Scuola ;
+                rdfs:range schema:longitude .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#nomeFermata
+skr:nomeFermata rdf:type owl:DatatypeProperty ;
+                rdfs:domain skr:Autobus ;
+                rdfs:range xsd:string .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#nomeScuola
+skr:nomeScuola rdf:type owl:DatatypeProperty ;
+               rdfs:domain skr:Plesso ,
+                           skr:Scuola ;
+               rdfs:range rdfs:Literal .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#numeroAutobus
+skr:numeroAutobus rdf:type owl:DatatypeProperty ;
+                  rdfs:domain skr:Autobus ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#tipoScuola
+skr:tipoScuola rdf:type owl:DatatypeProperty ;
+               rdfs:domain skr:Plesso ,
+                           skr:Scuola ;
+               rdfs:range rdfs:Literal .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#valutazione
+skr:valutazione rdf:type owl:DatatypeProperty ;
+                rdfs:domain skr:Plesso ,
+                            skr:Scuola ;
+                rdfs:range xsd:float .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#Autobus
+skr:Autobus rdf:type owl:Class ;
+            rdfs:comment "Ontologia per Autobus" .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#Plesso
+skr:Plesso rdf:type owl:Class ;
+           rdfs:subClassOf skr:Scuola ;
+           rdfs:comment "Ontologia per Plesso" .
+
+
+###  http://www.schoolrank.org/ontology/ontologia.owl#Scuola
+skr:Scuola rdf:type owl:Class ;
+           rdfs:comment "Ontologia per Scuola" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

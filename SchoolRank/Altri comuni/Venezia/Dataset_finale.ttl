@@ -1,0 +1,4256 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skr: <http://www.schoolrank.org/ontology/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.schoolrank.org/resource/15086> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Fte_Nove_A> ;
+    skr:nomeFermata "F.te Nove \"A\""^^xsd:string ;
+    skr:numeroAutobus "178"^^xsd:string,
+        "187"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5001> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lido_(SME)_B> ;
+    skr:nomeFermata "Lido (S.M.E.) \"B\""^^xsd:string ;
+    skr:numeroAutobus "87"^^xsd:string,
+        "95"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5002> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lido_(SME)_C_dir_Ve> ;
+    skr:nomeFermata "Lido (S.M.E.) \"C\" dir. Ve"^^xsd:string ;
+    skr:numeroAutobus "120"^^xsd:string,
+        "155"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5003> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lido_(SME)_D> ;
+    skr:nomeFermata "Lido (S.M.E.) \"D\""^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5004> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Sant_Elena> ;
+    skr:nomeFermata "Sant' Elena"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5005> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Elena_C_SX> ;
+    skr:nomeFermata "S. Elena \"C\" SX"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5006> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Giardini_Biennale_SX> ;
+    skr:nomeFermata "Giardini Biennale SX"^^xsd:string ;
+    skr:numeroAutobus "63"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5007> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Giardini_SX> ;
+    skr:nomeFermata "Giardini SX"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5008> a skr:Autobus ;
+    skr:andata false ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Arsenale_DX> ;
+    skr:nomeFermata "Arsenale DX"^^xsd:string ;
+    skr:numeroAutobus "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5009> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Zaccaria_(Pieta_)_A> ;
+    skr:nomeFermata "S. Zaccaria (Pieta') \"A\""^^xsd:string ;
+    skr:numeroAutobus "38"^^xsd:string,
+        "39"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5010> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Fusina> ;
+    skr:nomeFermata "Fusina"^^xsd:string ;
+    skr:numeroAutobus "41"^^xsd:string,
+        "42"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5011> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Zaccaria_(Jolanda)_D> ;
+    skr:nomeFermata "S. Zaccaria (Jolanda) \"D\""^^xsd:string ;
+    skr:numeroAutobus "124"^^xsd:string,
+        "63"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5012> a skr:Autobus ;
+    skr:andata false ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Zaccaria_(Jolanda)_C> ;
+    skr:nomeFermata "S. Zaccaria (Jolanda) \"C\""^^xsd:string ;
+    skr:numeroAutobus "40"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5013> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Zaccaria_(Danieli)_F> ;
+    skr:nomeFermata "S. Zaccaria (Danieli) \"F\""^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5014> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Zaccaria_(Danieli)_E> ;
+    skr:nomeFermata "S. Zaccaria (Danieli) \"E\""^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5015> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Marta> ;
+    skr:nomeFermata "S. Marta"^^xsd:string ;
+    skr:numeroAutobus "63"^^xsd:string,
+        "74"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5017> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Caroman> ;
+    skr:nomeFermata "Caroman"^^xsd:string ;
+    skr:numeroAutobus "16"^^xsd:string,
+        "19"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5018> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Certosa> ;
+    skr:nomeFermata "Certosa"^^xsd:string ;
+    skr:numeroAutobus "63"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5019> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Celestia> ;
+    skr:nomeFermata "Celestia"^^xsd:string ;
+    skr:numeroAutobus "63"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5020> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ospedale> ;
+    skr:nomeFermata "Ospedale"^^xsd:string ;
+    skr:numeroAutobus "63"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5021> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Giorgio> ;
+    skr:nomeFermata "S. Giorgio"^^xsd:string ;
+    skr:numeroAutobus "159"^^xsd:string,
+        "164"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5022> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Giudecca_Palanca_SX> ;
+    skr:nomeFermata "Giudecca Palanca SX"^^xsd:string ;
+    skr:numeroAutobus "159"^^xsd:string,
+        "74"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5023> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Sacca_Fisola_DX> ;
+    skr:nomeFermata "Sacca Fisola DX"^^xsd:string ;
+    skr:numeroAutobus "164"^^xsd:string,
+        "63"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5024> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Tronchetto_B_SX> ;
+    skr:nomeFermata "Tronchetto 'B' SX"^^xsd:string ;
+    skr:numeroAutobus "124"^^xsd:string,
+        "159"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5025> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Tronchetto_B__DX> ;
+    skr:nomeFermata "Tronchetto 'B'  DX"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "164"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5026> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Tronchetto_N/T> ;
+    skr:nomeFermata "Tronchetto N/T"^^xsd:string ;
+    skr:numeroAutobus "43"^^xsd:string,
+        "45"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5027> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ple_Roma_(Scomenzera)_C> ;
+    skr:nomeFermata "P.le Roma (Scomenzera) \"C"^^xsd:string ;
+    skr:numeroAutobus "3"^^xsd:string,
+        "73"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5028> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ple_Roma_(Parisi)_E> ;
+    skr:nomeFermata "P.le Roma (Parisi) \"E\""^^xsd:string ;
+    skr:numeroAutobus "110"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5030> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ple_Roma_(S_Chiara)_F> ;
+    skr:nomeFermata "P.le Roma (S. Chiara) \"F\""^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5031> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ple_Roma_(S_Chiara)_G> ;
+    skr:nomeFermata "P.le Roma (S. Chiara) \"G\""^^xsd:string ;
+    skr:numeroAutobus "7"^^xsd:string,
+        "92"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5032> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ferrovia_B> ;
+    skr:nomeFermata "Ferrovia \"B\""^^xsd:string ;
+    skr:numeroAutobus "104"^^xsd:string,
+        "159"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5033> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ferrovia_A> ;
+    skr:nomeFermata "Ferrovia \"A\""^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "164"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5034> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Riva_de_Biasio_SX> ;
+    skr:nomeFermata "Riva de Biasio SX"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5035> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Marcuola-Casino_DX> ;
+    skr:nomeFermata "S. Marcuola-Casino' DX"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5036> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Stae> ;
+    skr:nomeFermata "S. Stae"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5037> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ca_D_Oro> ;
+    skr:nomeFermata "Ca' D'Oro"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5038> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Rialto_D> ;
+    skr:nomeFermata "Rialto \"D\""^^xsd:string ;
+    skr:numeroAutobus "104"^^xsd:string,
+        "4"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5039> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Rialto_C> ;
+    skr:nomeFermata "Rialto \"C\""^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "9"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5040> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Rialto_B> ;
+    skr:nomeFermata "Rialto \"B\""^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5041> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Silvestro> ;
+    skr:nomeFermata "S. Silvestro"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5042> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Angelo> ;
+    skr:nomeFermata "S. Angelo"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5043> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Toma_SX> ;
+    skr:nomeFermata "S. Toma' SX"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5044> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Toma_DX> ;
+    skr:nomeFermata "S. Toma' DX"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5045> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ca_Rezzonico> ;
+    skr:nomeFermata "Ca' Rezzonico"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5046> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Samuele> ;
+    skr:nomeFermata "S. Samuele"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5047> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Accademia_SX> ;
+    skr:nomeFermata "Accademia SX"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5048> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Accademia_DX> ;
+    skr:nomeFermata "Accademia DX"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5049> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Zattere_SX> ;
+    skr:nomeFermata "Zattere SX"^^xsd:string ;
+    skr:numeroAutobus "164"^^xsd:string,
+        "84"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5050> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Zattere_DX> ;
+    skr:nomeFermata "Zattere DX"^^xsd:string ;
+    skr:numeroAutobus "159"^^xsd:string,
+        "95"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5051> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Maria_del_Giglio> ;
+    skr:nomeFermata "S. Maria del Giglio"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5052> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Salute> ;
+    skr:nomeFermata "Salute"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5053> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Marco_(Vallaresso)_SX> ;
+    skr:nomeFermata "S. Marco (Vallaresso) SX"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5054> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Marco_(Vallaresso)_DX> ;
+    skr:nomeFermata "S. Marco (Vallaresso) DX"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5056> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Marco_(Giardinetti)_DX> ;
+    skr:nomeFermata "S. Marco (Giardinetti) DX"^^xsd:string ;
+    skr:numeroAutobus "164"^^xsd:string,
+        "174"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5058> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Madonna_dell_Orto> ;
+    skr:nomeFermata "Madonna dell'Orto"^^xsd:string ;
+    skr:numeroAutobus "64"^^xsd:string,
+        "73"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5059> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Alvise> ;
+    skr:nomeFermata "S. Alvise"^^xsd:string ;
+    skr:numeroAutobus "64"^^xsd:string,
+        "73"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5060> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Fte_Nove_C> ;
+    skr:nomeFermata "F.te Nove \"C\""^^xsd:string ;
+    skr:numeroAutobus "60"^^xsd:string,
+        "69"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5061> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Fte_Nove_B> ;
+    skr:nomeFermata "F.te Nove \"B\""^^xsd:string ;
+    skr:numeroAutobus "60"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5062> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Cimitero_S_Michele> ;
+    skr:nomeFermata "Cimitero S. Michele"^^xsd:string ;
+    skr:numeroAutobus "60"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5063> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Colonna_A> ;
+    skr:nomeFermata "Murano Colonna \"A\""^^xsd:string ;
+    skr:numeroAutobus "60"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5064> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Navagero> ;
+    skr:nomeFermata "Murano Navagero"^^xsd:string ;
+    skr:numeroAutobus "47"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5065> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Museo_DX> ;
+    skr:nomeFermata "Murano Museo DX"^^xsd:string ;
+    skr:numeroAutobus "60"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5066> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Venier> ;
+    skr:nomeFermata "Murano Venier"^^xsd:string ;
+    skr:numeroAutobus "60"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5067> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Serenella> ;
+    skr:nomeFermata "Murano Serenella"^^xsd:string ;
+    skr:numeroAutobus "60"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5068> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Burano_B_DX_per_Treport> ;
+    skr:nomeFermata "Burano \"B\" DX per Treport"^^xsd:string ;
+    skr:numeroAutobus "132"^^xsd:string,
+        "143"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5069> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Treporti> ;
+    skr:nomeFermata "Treporti"^^xsd:string ;
+    skr:numeroAutobus "22"^^xsd:string,
+        "31"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5070> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Punta_Sabbioni_SX> ;
+    skr:nomeFermata "Punta Sabbioni SX"^^xsd:string ;
+    skr:numeroAutobus "120"^^xsd:string,
+        "130"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5072> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Chioggia_Ptta_Vigo> ;
+    skr:nomeFermata "Chioggia P.tta Vigo"^^xsd:string ;
+    skr:numeroAutobus "16"^^xsd:string,
+        "19"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5073> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Pellestrina_Cimitero_M/N> ;
+    skr:nomeFermata "Pellestrina Cimitero M/N"^^xsd:string ;
+    skr:numeroAutobus "16"^^xsd:string,
+        "19"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5075> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Tronchetto_Mercato> ;
+    skr:nomeFermata "Tronchetto Mercato"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5076> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Zaccaria_(MVE)_B> ;
+    skr:nomeFermata "S. Zaccaria (M.V.E.) \"B\""^^xsd:string ;
+    skr:numeroAutobus "165"^^xsd:string,
+        "52"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5078> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Servolo> ;
+    skr:nomeFermata "S. Servolo"^^xsd:string ;
+    skr:numeroAutobus "52"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5079> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Lazzaro> ;
+    skr:nomeFermata "S. Lazzaro"^^xsd:string ;
+    skr:numeroAutobus "53"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5081> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Zitelle_SX> ;
+    skr:nomeFermata "Zitelle SX"^^xsd:string ;
+    skr:numeroAutobus "159"^^xsd:string,
+        "74"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5082> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Redentore> ;
+    skr:nomeFermata "Redentore"^^xsd:string ;
+    skr:numeroAutobus "63"^^xsd:string,
+        "74"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5083> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Basilio> ;
+    skr:nomeFermata "S. Basilio"^^xsd:string ;
+    skr:numeroAutobus "84"^^xsd:string,
+        "95"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5084> a skr:Autobus ;
+    skr:andata false ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Guglie_dx> ;
+    skr:nomeFermata "Guglie dx"^^xsd:string ;
+    skr:numeroAutobus "73"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5085> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Tre_Archi> ;
+    skr:nomeFermata "Tre Archi"^^xsd:string ;
+    skr:numeroAutobus "84"^^xsd:string,
+        "95"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5087> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Fte_Nove_D> ;
+    skr:nomeFermata "F.te Nove \"D\""^^xsd:string ;
+    skr:numeroAutobus "22"^^xsd:string,
+        "31"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5088> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ferrovia_C> ;
+    skr:nomeFermata "Ferrovia \"C\""^^xsd:string ;
+    skr:numeroAutobus "64"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5089> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ferrovia_D> ;
+    skr:nomeFermata "Ferrovia \"D\""^^xsd:string ;
+    skr:numeroAutobus "110"^^xsd:string,
+        "73"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5090> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Vignole> ;
+    skr:nomeFermata "Vignole"^^xsd:string ;
+    skr:numeroAutobus "22"^^xsd:string,
+        "31"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5091> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Erasmo_Capannone> ;
+    skr:nomeFermata "S. Erasmo Capannone"^^xsd:string ;
+    skr:numeroAutobus "22"^^xsd:string,
+        "31"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5092> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Erasmo_Chiesa> ;
+    skr:nomeFermata "S. Erasmo Chiesa"^^xsd:string ;
+    skr:numeroAutobus "22"^^xsd:string,
+        "31"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5093> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Erasmo_Punta_Vela> ;
+    skr:nomeFermata "S. Erasmo Punta Vela"^^xsd:string ;
+    skr:numeroAutobus "22"^^xsd:string,
+        "31"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5094> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lido_(SME)_A> ;
+    skr:nomeFermata "Lido (S.M.E.) \"A\""^^xsd:string ;
+    skr:numeroAutobus "82"^^xsd:string,
+        "93"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5095> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Faro_M/S_SX> ;
+    skr:nomeFermata "Murano Faro M/S SX"^^xsd:string ;
+    skr:numeroAutobus "47"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5096> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Faro_M/N> ;
+    skr:nomeFermata "Murano Faro M/N"^^xsd:string ;
+    skr:numeroAutobus "22"^^xsd:string,
+        "31"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5097> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Torcello> ;
+    skr:nomeFermata "Torcello"^^xsd:string ;
+    skr:numeroAutobus "146"^^xsd:string,
+        "147"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5098> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lido_S_Nicolo_M/N> ;
+    skr:nomeFermata "Lido S. Nicolo' M/N"^^xsd:string ;
+    skr:numeroAutobus "156"^^xsd:string,
+        "47"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5099> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lido_S_Nicolo_Ferry> ;
+    skr:nomeFermata "Lido S. Nicolo' Ferry"^^xsd:string ;
+    skr:numeroAutobus "43"^^xsd:string,
+        "45"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5101> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Mazzorbo> ;
+    skr:nomeFermata "Mazzorbo"^^xsd:string ;
+    skr:numeroAutobus "132"^^xsd:string,
+        "137"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5102> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Maria_del_Mare_N/T> ;
+    skr:nomeFermata "S. Maria del Mare N/T"^^xsd:string ;
+    skr:numeroAutobus "18"^^xsd:string,
+        "21"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5103> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Alberoni_Faro_Rocchetta_N> ;
+    skr:nomeFermata "Alberoni Faro Rocchetta N"^^xsd:string ;
+    skr:numeroAutobus "18"^^xsd:string,
+        "21"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5104> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ple_Roma_(SAndrea)_B> ;
+    skr:nomeFermata "P.le Roma (S.Andrea) \"B\""^^xsd:string ;
+    skr:numeroAutobus "63"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5108> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Punta_Sabbioni_DX> ;
+    skr:nomeFermata "Punta Sabbioni DX"^^xsd:string ;
+    skr:numeroAutobus "38"^^xsd:string,
+        "39"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5109> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Pta_Sabbioni_N/T> ;
+    skr:nomeFermata "P.ta Sabbioni N/T"^^xsd:string ;
+    skr:numeroAutobus "44"^^xsd:string,
+        "46"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5111> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/SErasmo_Fte_Massimilian> ;
+    skr:nomeFermata "S.Erasmo F.te Massimilian"^^xsd:string ;
+    skr:numeroAutobus "51"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5112> a skr:Autobus ;
+    skr:andata false ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ple_Roma_(S_Andrea)_A> ;
+    skr:nomeFermata "P.le Roma (S. Andrea) \"A\""^^xsd:string ;
+    skr:numeroAutobus "74"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5113> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Burano_C_SX_per_Fte_No> ;
+    skr:nomeFermata "Burano \"C\" SX per F.te No"^^xsd:string ;
+    skr:numeroAutobus "133"^^xsd:string,
+        "137"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5114> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Colonna_B> ;
+    skr:nomeFermata "Murano Colonna \"B\""^^xsd:string ;
+    skr:numeroAutobus "47"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5115> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Bacini> ;
+    skr:nomeFermata "Bacini"^^xsd:string ;
+    skr:numeroAutobus "63"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5116> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Pietro_di_Castello> ;
+    skr:nomeFermata "S. Pietro di Castello"^^xsd:string ;
+    skr:numeroAutobus "63"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5117> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Da_Mula> ;
+    skr:nomeFermata "Murano Da Mula"^^xsd:string ;
+    skr:numeroAutobus "60"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5118> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Zitelle_DX> ;
+    skr:nomeFermata "Zitelle DX"^^xsd:string ;
+    skr:numeroAutobus "164"^^xsd:string,
+        "63"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5119> a skr:Autobus ;
+    skr:andata false ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Museo_SX> ;
+    skr:nomeFermata "Murano Museo SX"^^xsd:string ;
+    skr:numeroAutobus "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5120> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Murano_Colonna_C> ;
+    skr:nomeFermata "Murano Colonna \"C\""^^xsd:string ;
+    skr:numeroAutobus "60"^^xsd:string,
+        "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5124> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Giardini_DX> ;
+    skr:nomeFermata "Giardini DX"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5128> a skr:Autobus ;
+    skr:andata false ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Giardini_Biennale_DX> ;
+    skr:nomeFermata "Giardini Biennale DX"^^xsd:string ;
+    skr:numeroAutobus "68"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5129> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Giudecca_Palanca_DX> ;
+    skr:nomeFermata "Giudecca Palanca DX"^^xsd:string ;
+    skr:numeroAutobus "164"^^xsd:string,
+        "63"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5132> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Marcuola-Casino_SX> ;
+    skr:nomeFermata "S. Marcuola-Casino' SX"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5133> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Arsenale_SX> ;
+    skr:nomeFermata "Arsenale SX"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5135> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Crea> ;
+    skr:nomeFermata "Crea"^^xsd:string ;
+    skr:numeroAutobus "64"^^xsd:string,
+        "73"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5136> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Riva_de_Biasio_DX> ;
+    skr:nomeFermata "Riva de Biasio DX"^^xsd:string ;
+    skr:numeroAutobus "84"^^xsd:string,
+        "95"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5137> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Zattere_Gesuati> ;
+    skr:nomeFermata "Zattere Gesuati"^^xsd:string ;
+    skr:numeroAutobus "41"^^xsd:string,
+        "42"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5138> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Rialto_Mercato> ;
+    skr:nomeFermata "Rialto Mercato"^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5139> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Sacca_Fisola_SX> ;
+    skr:nomeFermata "Sacca Fisola SX"^^xsd:string ;
+    skr:numeroAutobus "159"^^xsd:string,
+        "74"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5152> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lido_(SME)_E> ;
+    skr:nomeFermata "Lido (S.M.E.) \"E\""^^xsd:string ;
+    skr:numeroAutobus "164"^^xsd:string,
+        "47"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5158> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lido_(SME)_C_dir_P> ;
+    skr:nomeFermata "Lido (S.M.E.) \"C\" dir. P."^^xsd:string ;
+    skr:numeroAutobus "130"^^xsd:string,
+        "151"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5159> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Spirito_Santo> ;
+    skr:nomeFermata "Spirito Santo"^^xsd:string ;
+    skr:numeroAutobus "84"^^xsd:string,
+        "95"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5164> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_Vio> ;
+    skr:nomeFermata "S. Vio"^^xsd:string ;
+    skr:numeroAutobus "11"^^xsd:string,
+        "114"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5166> a skr:Autobus ;
+    skr:andata false ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Rialto> ;
+    skr:nomeFermata "Rialto"^^xsd:string ;
+    skr:numeroAutobus "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5189> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Guglie> ;
+    skr:nomeFermata "Guglie"^^xsd:string ;
+    skr:numeroAutobus "64"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5191> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ferrovia_E> ;
+    skr:nomeFermata "Ferrovia \"E\""^^xsd:string ;
+    skr:numeroAutobus "1"^^xsd:string,
+        "7"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5500> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Casino_di_Venezia> ;
+    skr:nomeFermata "Casino' di Venezia"^^xsd:string ;
+    skr:numeroAutobus "108"^^xsd:string,
+        "109"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5501> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Ple_Roma> ;
+    skr:nomeFermata "P.le Roma"^^xsd:string ;
+    skr:numeroAutobus "108"^^xsd:string,
+        "109"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5610> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lazzaretto_Nuovo_(A_RICHI> ;
+    skr:nomeFermata "Lazzaretto Nuovo (A RICHI"^^xsd:string ;
+    skr:numeroAutobus "22"^^xsd:string,
+        "31"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5618> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Certosa_(A_Richiesta)> ;
+    skr:nomeFermata "Certosa (A Richiesta)"^^xsd:string ;
+    skr:numeroAutobus "82"^^xsd:string,
+        "93"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5619> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Celestia_(A_Richiesta)> ;
+    skr:nomeFermata "Celestia (A Richiesta)"^^xsd:string ;
+    skr:numeroAutobus "82"^^xsd:string,
+        "93"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5621> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/San_Giorgio_(A_Richiesta)> ;
+    skr:nomeFermata "San Giorgio (A Richiesta)"^^xsd:string ;
+    skr:numeroAutobus "113"^^xsd:string,
+        "124"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5692> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Vignole_(A_Richiesta)> ;
+    skr:nomeFermata "Vignole (A Richiesta)"^^xsd:string ;
+    skr:numeroAutobus "139"^^xsd:string,
+        "28"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5693> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Torcello_(A_Richiesta)> ;
+    skr:nomeFermata "Torcello (A Richiesta)"^^xsd:string ;
+    skr:numeroAutobus "132"^^xsd:string,
+        "137"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5698> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Lido_SNicolo_(A_Richiest> ;
+    skr:nomeFermata "Lido S.Nicolo'(A Richiest"^^xsd:string ;
+    skr:numeroAutobus "120"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5715> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Bacini_(A_Richiesta)> ;
+    skr:nomeFermata "Bacini (A Richiesta)"^^xsd:string ;
+    skr:numeroAutobus "82"^^xsd:string,
+        "93"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5717> a skr:Autobus ;
+    skr:andata false,
+        true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Caroman_(A_Richiesta)> ;
+    skr:nomeFermata "Caroman (A Richiesta)"^^xsd:string ;
+    skr:numeroAutobus "17"^^xsd:string,
+        "20"^^xsd:string .
+
+<http://www.schoolrank.org/resource/5791> a skr:Autobus ;
+    skr:andata true ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/Capannone_(A_Richiesta)> ;
+    skr:nomeFermata "Capannone (A Richiesta)"^^xsd:string ;
+    skr:numeroAutobus "132"^^xsd:string .
+
+<http://www.schoolrank.org/resource/VEAA810017> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_SABBADINO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Antonio_Gramsci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA810017"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icgramscicampalto.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "ANTONIO GRAMSCI" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA810028> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/P_LE_S_BENEDETTO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Antonio_Gramsci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA810028"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icgramscicampalto.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "ANTONIO GRAMSCI" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA81402G> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/F_TA_VENIER> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio true ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA81402G"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://http//www.icmuranoburano.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche false ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. U. FOSCOLO MURANO-BURANO" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "2.8"^^xsd:float ;
+    skr:vicinoA <http://www.schoolrank.org/resource/point/Murano_Da_Mula>,
+        <http://www.schoolrank.org/resource/point/Murano_Venier> .
+
+<http://www.schoolrank.org/resource/VEAA83401Q> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_MONTE_FADALTO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Ilaria_Alpi> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA83401Q"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icilariaalpifavaro.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. ILARIA ALPI" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA840013> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_BUONO_DA_MALAMOCCO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Franca_Ongaro> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA840013"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://http//www.scuolelidopellestrina.gov.it/"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. \"FRANCA ONGARO\"" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA840035> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_DEI_BOTTA_323> ;
+    skr:dedicataA <http://dbpedia.org/resource/Franca_Ongaro> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA840035"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.scuolelidopellestrina.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. \"FRANCA ONGARO\"" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA846012> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_MONTEVERDI> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA846012"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icquerini.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "FRANCESCO QUERINI" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA846023> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PIRAGHETTO_10> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA846023"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icquerini.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "FRANCESCO QUERINI" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA84701T> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_IVANCICH> ;
+    skr:dedicataA <http://dbpedia.org/resource/Cristoforo_Colombo> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA84701T"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.comprensivocolombo.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "CRISTOFORO COLOMBO" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA84702V> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PERLAN> ;
+    skr:dedicataA <http://dbpedia.org/resource/Cristoforo_Colombo> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA84702V"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.comprensivocolombo.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "CRISTOFORO COLOMBO" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA87001V> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/PIAZZALE_SIRTORI> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA87001V"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icgrimani.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. F. GRIMANI" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA87101P> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PARCO_FERROVIARIO> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA87101P"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icbaseggio.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C.BASEGGIO" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA87202G> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_P_KOLBE> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA87202G"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.scuolagiuliocesare.net/"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C. GIULIO CESARE" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA87302B> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_BUOZZI> ;
+    skr:dedicataA <http://dbpedia.org/resource/Leonardo_Da_Vinci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA87302B"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icleonardodavincivenezia.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. LEONARDO DA VINCI" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEAA874016> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIALE_S_MARCO_182> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEAA874016"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icvialesanmarco.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. VIALE SAN MARCO" ;
+    skr:tipoScuola "SCUOLA INFANZIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE81001C> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/P_LE_ZENDRINI> ;
+    skr:dedicataA <http://dbpedia.org/resource/Antonio_Gramsci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE81001C"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icgramscicampalto.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "ANTONIO GRAMSCI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE81002D> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PASSO_/G> ;
+    skr:dedicataA <http://dbpedia.org/resource/Antonio_Gramsci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE81002D"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icgramscicampalto.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "ANTONIO GRAMSCI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE81402R> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/CALLE_CONVENTO_21> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio true ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE81402R"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://http//www.icmuranoburano.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche false ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. U. FOSCOLO MURANO-BURANO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "2.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE82703X> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_VICENTINO> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE82703X"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icparolari.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "GIULIO CESARE PAROLARI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE827041> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_ZANDOMENEGHI_1> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE827041"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icparolari.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "GIULIO CESARE PAROLARI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE827052> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_DEL_GAZZATO_6> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE827052"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icparolari.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "GIULIO CESARE PAROLARI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE827063> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CASTELLANA_15> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE827063"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icparolari.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "GIULIO CESARE PAROLARI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE834022> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_TRIESTINA_0> ;
+    skr:dedicataA <http://dbpedia.org/resource/Ilaria_Alpi> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE834022"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icilariaalpifavaro.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. ILARIA ALPI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE834033> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_MONTE_CERVINO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Ilaria_Alpi> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE834033"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icilariaalpifavaro.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. ILARIA ALPI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE834055> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_GOBBI_13> ;
+    skr:dedicataA <http://dbpedia.org/resource/Ilaria_Alpi> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE834055"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icilariaalpifavaro.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. ILARIA ALPI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE839014> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/GIUDECCA_373> ;
+    skr:dedicataA <http://dbpedia.org/resource/Dante_Alighieri> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE839014"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.alighierivenezia.eu"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "DANTE ALIGHIERI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "4.8"^^xsd:float ;
+    skr:vicinoA <http://www.schoolrank.org/resource/point/Giudecca_Palanca_DX>,
+        <http://www.schoolrank.org/resource/point/Giudecca_Palanca_SX> .
+
+<http://www.schoolrank.org/resource/VEEE840018> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_MALAMOCCO_1> ;
+    skr:dedicataA <http://dbpedia.org/resource/Franca_Ongaro> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE840018"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://http//www.scuolelidopellestrina.gov.it/"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. \"FRANCA ONGARO\"" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE840029> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_BUONO_DA_MALAMOCCO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Franca_Ongaro> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE840029"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://http//www.scuolelidopellestrina.gov.it/"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. \"FRANCA ONGARO\"" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE84003A> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/RIVIERA_SAN_NICOLO_21> ;
+    skr:dedicataA <http://dbpedia.org/resource/Franca_Ongaro> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE84003A"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.scuolevenezialido.net"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. \"FRANCA ONGARO\"" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE84401G> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PENELLO_1> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE84401G"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.istitutocomprensivotrentin.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "SILVIO TRENTIN" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE847013> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_BOSSO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Cristoforo_Colombo> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE847013"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.comprensivocolombo.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "CRISTOFORO COLOMBO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE847024> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_ASSEGGIANO_163> ;
+    skr:dedicataA <http://dbpedia.org/resource/Cristoforo_Colombo> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE847024"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.comprensivocolombo.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "CRISTOFORO COLOMBO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE847035> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PERLAN> ;
+    skr:dedicataA <http://dbpedia.org/resource/Cristoforo_Colombo> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE847035"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.comprensivocolombo.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "CRISTOFORO COLOMBO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE87101X> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_TRIESTE_203> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE87101X"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icbaseggio.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C.BASEGGIO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE871032> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_MORANZANI_2> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE871032"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icbaseggio.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C.BASEGGIO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE871043> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_ORTOLA> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE871043"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icbaseggio.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C.BASEGGIO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE87201Q> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CAPPUCCINA_74> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE87201Q"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.scuolagiuliocesare.net/"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C. GIULIO CESARE" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE87202R> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_P_KOLBE> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE87202R"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.scuolagiuliocesare.net/"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C. GIULIO CESARE" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE87301G> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_BISSUOLA> ;
+    skr:dedicataA <http://dbpedia.org/resource/Leonardo_Da_Vinci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE87301G"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icleonardodavincivenezia.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. LEONARDO DA VINCI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE87302L> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PORTO_DI_CAVERGNAGO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Leonardo_Da_Vinci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE87302L"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icleonardodavincivenezia.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. LEONARDO DA VINCI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE87303N> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_VIRGILIO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Leonardo_Da_Vinci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE87303N"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icleonardodavincivenezia.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. LEONARDO DA VINCI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE87401B> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PACCAGNELLA_11> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE87401B"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icnoale.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. VIALE SAN MARCO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE87402C> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_GIARDINO_16> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE87402C"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icvialesanmarco.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. VIALE SAN MARCO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE87403D> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIALE_S_MARCO_67> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE87403D"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icvialesanmarco.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. VIALE SAN MARCO" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEEE875017> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_MONTE_BERICO_16> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEEE875017"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.spallanzanimestre5.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. L.SPALLANZANI" ;
+    skr:tipoScuola "SCUOLA PRIMARIA"^^xsd:string ;
+    skr:valutazione "6.4"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM81001B> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PASSO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Antonio_Gramsci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM81001B"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icgramscicampalto.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "ANTONIO GRAMSCI" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM81401P> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/FONDAMENTA_RADI> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio true ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM81401P"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://http//www.icmuranoburano.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche false ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. U. FOSCOLO MURANO-BURANO" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "2.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM82701R> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_TIEPOLO_8> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM82701R"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icparolari.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "GIULIO CESARE PAROLARI" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM83401X> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PASSO_S_BOLDO_26> ;
+    skr:dedicataA <http://dbpedia.org/resource/Ilaria_Alpi> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM83401X"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icilariaalpifavaro.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. ILARIA ALPI" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM839013> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/S_MARCO_3042> ;
+    skr:dedicataA <http://dbpedia.org/resource/Dante_Alighieri> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM839013"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.alighierivenezia.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "DANTE ALIGHIERI" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "4.8"^^xsd:float ;
+    skr:vicinoA <http://www.schoolrank.org/resource/point/Rialto>,
+        <http://www.schoolrank.org/resource/point/Rialto_B>,
+        <http://www.schoolrank.org/resource/point/S_Angelo>,
+        <http://www.schoolrank.org/resource/point/S_Silvestro> .
+
+<http://www.schoolrank.org/resource/VEMM84201V> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/CANNAREGIO_476> ;
+    skr:dedicataA <http://dbpedia.org/resource/San_Girolamo> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM84201V"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.icsangirolamo.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "SAN GIROLAMO" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "5.2"^^xsd:float ;
+    skr:vicinoA <http://www.schoolrank.org/resource/point/Casino_di_Venezia>,
+        <http://www.schoolrank.org/resource/point/Guglie>,
+        <http://www.schoolrank.org/resource/point/Guglie_dx>,
+        <http://www.schoolrank.org/resource/point/Riva_de_Biasio_DX>,
+        <http://www.schoolrank.org/resource/point/Riva_de_Biasio_SX>,
+        <http://www.schoolrank.org/resource/point/S_Marcuola-Casino_DX>,
+        <http://www.schoolrank.org/resource/point/S_Marcuola-Casino_SX> .
+
+<http://www.schoolrank.org/resource/VEMM847012> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_DELL_EDERA_33> ;
+    skr:dedicataA <http://dbpedia.org/resource/Cristoforo_Colombo> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM847012"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.comprensivocolombo.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "CRISTOFORO COLOMBO" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM87101V> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_BOITO_8> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM87101V"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icbaseggio.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C.BASEGGIO" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM87201P> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CAPPUCCINA_/D> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM87201P"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.scuolagiuliocesare.net/"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C. GIULIO CESARE" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM87301E> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_TEVERE_93> ;
+    skr:dedicataA <http://dbpedia.org/resource/Leonardo_Da_Vinci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM87301E"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icleonardodavincivenezia.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. LEONARDO DA VINCI" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM87401A> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CICOGNARA> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM87401A"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icvialesanmarco.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. VIALE SAN MARCO" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEMM875016> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CIMA_D_ASTA_8> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VEMM875016"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.icspallanzanimestre5.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. L.SPALLANZANI" ;
+    skr:tipoScuola "SCUOLA PRIMO GRADO"^^xsd:string ;
+    skr:valutazione "6.4"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VERC004016> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PERLA> ;
+    skr:dedicataA <http://dbpedia.org/resource/Luigi_Luzzatti> ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VERC004016"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.iisluzzatti.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "LUIGI LUZZATTI" ;
+    skr:tipoScuola "IST PROF PER I SERVIZI COMMERCIALI E TURISTICI"^^xsd:string ;
+    skr:valutazione "3.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VERC00451G> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PERLA> ;
+    skr:dedicataA <http://dbpedia.org/resource/Luigi_Luzzatti> ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VERC00451G"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.iisluzzatti.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "LUIGI LUZZATTI" ;
+    skr:tipoScuola "IST PROF PER I SERVIZI COMMERCIALI E TURISTICI"^^xsd:string ;
+    skr:valutazione "3.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VERH04050V> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/CASTELLO_639> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VERH04050V"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento false ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.barbarigo.it"^^xsd:string ;
+    skr:haSpaziAmministrativi false ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche false ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "ANDREA BARBARIGO" ;
+    skr:tipoScuola "IST PROF PER I SERVIZI ALBERGHIERI E RISTORAZIONE"^^xsd:string ;
+    skr:valutazione "1.2"^^xsd:float ;
+    skr:vicinoA <http://www.schoolrank.org/resource/point/Arsenale_DX>,
+        <http://www.schoolrank.org/resource/point/Arsenale_SX> .
+
+<http://www.schoolrank.org/resource/VERI00401V> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_ASSEGGIANO_4> ;
+    skr:dedicataA <http://dbpedia.org/resource/Luigi_Luzzatti> ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VERI00401V"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.luzzattigramsci.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "LUIGI LUZZATTI" ;
+    skr:tipoScuola "IST PROF INDUSTRIA E ARTIGIANATO"^^xsd:string ;
+    skr:valutazione "3.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VETD00401D> a skr:Plesso ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PERLA> ;
+    skr:dedicataA <http://dbpedia.org/resource/Luigi_Luzzatti> ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceScuola "VETD00401D"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.iisluzzatti.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "LUIGI LUZZATTI" ;
+    skr:tipoScuola "ISTITUTO TECNICO COMMERCIALE"^^xsd:string ;
+    skr:valutazione "3.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC81000A> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PASSO_CAMPALTO_/O> ;
+    skr:dedicataA <http://dbpedia.org/resource/Antonio_Gramsci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC81000A"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC81000A> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "ANTONIO GRAMSCI" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC81400N> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/FONDAMENTA_RADI> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio true ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC81400N"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC81400N> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche false ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. U. FOSCOLO MURANO-BURANO" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "2.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC82700Q> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CASTELLANA_15> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC82700Q"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC82700Q> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "GIULIO CESARE PAROLARI" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC83400V> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_GOBBI_1> ;
+    skr:dedicataA <http://dbpedia.org/resource/Ilaria_Alpi> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC83400V"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC83400V> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. ILARIA ALPI" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC840006> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_SANDRO_GALLO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Franca_Ongaro> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC840006"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC840006> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. \"FRANCA ONGARO\"" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC84400D> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CAVALLETTO> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC84400D"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC84400D> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "SILVIO TRENTIN" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC846005> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CATALANI> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC846005"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC846005> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "FRANCESCO QUERINI" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC847001> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_BOSSO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Cristoforo_Colombo> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC847001"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC847001> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "CRISTOFORO COLOMBO" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC870002> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CANAL> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC870002"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC870002> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. F. GRIMANI" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC87100T> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_TRIESTE_3> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC87100T"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC87100T> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C.BASEGGIO" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "6.8"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC87200N> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CAPPUCCINA_/D> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC87200N"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC87200N> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. C. GIULIO CESARE" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC87300D> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_VIRGILIO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Leonardo_Da_Vinci> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili true ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC87300D"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC87300D> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. LEONARDO DA VINCI" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "6.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC874009> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIALE_SAN_MARCO> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC874009"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC874009> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. VIALE SAN MARCO" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "5.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIC875005> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_CIMA_D_ASTA_8> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIC875005"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIC875005> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma true ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.C. L.SPALLANZANI" ;
+    skr:tipoScuola "ISTITUTO COMPRENSIVO"^^xsd:string ;
+    skr:valutazione "6.4"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEIS004007> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_PERLAN> ;
+    skr:dedicataA <http://dbpedia.org/resource/Luigi_Luzzatti> ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEIS004007"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEIS004007> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb ""^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "LUIGI LUZZATTI" ;
+    skr:tipoScuola "ISTITUTO SUPERIORE"^^xsd:string ;
+    skr:valutazione "3.6"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEPM02000G> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_DEL_MIGLIO> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEPM02000G"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEPM02000G> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.liceistefanini.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "I.I.S. LUIGI STEFANINI" ;
+    skr:tipoScuola "ISTITUTO MAGISTRALE"^^xsd:string ;
+    skr:valutazione "4.4"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VEPS05000A> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_ASSEGGIANO> ;
+    skr:dedicataA <http://dbpedia.org/resource/Ugo_Morin> ;
+    skr:haAccessoRampe true ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VEPS05000A"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina false ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VEPS05000A> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili true ;
+    skr:haSitoWeb "http://www.liceomorin.net"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "UGO MORIN" ;
+    skr:tipoScuola "LICEO SCIENTIFICO"^^xsd:string ;
+    skr:valutazione "4.4"^^xsd:float .
+
+<http://www.schoolrank.org/resource/VERH04000D> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/CASTELLO_639> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna false ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VERH04000D"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento false ;
+    skr:haPalestraPiscina false ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VERH04000D> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.barbarigo.it"^^xsd:string ;
+    skr:haSpaziAmministrativi false ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche false ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "ANDREA BARBARIGO" ;
+    skr:tipoScuola "IST PROF PER I SERVIZI ALBERGHIERI E RISTORAZIONE"^^xsd:string ;
+    skr:valutazione "1.2"^^xsd:float ;
+    skr:vicinoA <http://www.schoolrank.org/resource/point/Arsenale_DX>,
+        <http://www.schoolrank.org/resource/point/Arsenale_SX> .
+
+<http://www.schoolrank.org/resource/VETF04000T> a skr:Scuola ;
+    skr:comune <http://dbpedia.org/resource/Venezia> ;
+    skr:coordinate <http://www.schoolrank.org/resource/point/VIA_BAGLIONI> ;
+    skr:dedicataA "None" ;
+    skr:haAccessoRampe false ;
+    skr:haAltriAccorgimentiDisabili true ;
+    skr:haAscensoriDisabili false ;
+    skr:haAulaMagna true ;
+    skr:haCentralizzatoAria false ;
+    skr:haCentralizzatoGasolio false ;
+    skr:haCentralizzatoOlioCombustibili false ;
+    skr:haCodiceIstitutoRiferimento "VETF04000T"^^xsd:string ;
+    skr:haCondizionamentoVentilazione false ;
+    skr:haCorpiScaldantiElettriciAutonomi false ;
+    skr:haDescrizioneTipologiaGradoIstruzioneScuola false ;
+    skr:haImpiantoRiscaldamento true ;
+    skr:haPalestraPiscina true ;
+    skr:haPlesso <http://www.schoolrank.org/resource/VETF04000T> ;
+    skr:haRiscaldamentoAltraNatura true ;
+    skr:haScaleNorma false ;
+    skr:haServiziIgieniciDisabili false ;
+    skr:haSitoWeb "http://www.itiszuccante.gov.it"^^xsd:string ;
+    skr:haSpaziAmministrativi true ;
+    skr:haSpaziDidattici true ;
+    skr:haSuperamentoBarriereArchitettoniche true ;
+    skr:haTeleriscaldamento false ;
+    skr:nomeScuola "CARLO ZUCCANTE" ;
+    skr:tipoScuola "ISTITUTO TECNICO INDUSTRIALE"^^xsd:string ;
+    skr:valutazione "4.0"^^xsd:float .
+
+<http://www.schoolrank.org/resource/point/Accademia_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.431736" ;
+    schema:longitude "12.328522999999999" .
+
+<http://www.schoolrank.org/resource/point/Accademia_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.431633000000005" ;
+    schema:longitude "12.328705000000001" .
+
+<http://www.schoolrank.org/resource/point/Alberoni_Faro_Rocchetta_N> a schema:GeoCoordinates ;
+    schema:latitude "45.341526" ;
+    schema:longitude "12.308978999999999" .
+
+<http://www.schoolrank.org/resource/point/Bacini> a schema:GeoCoordinates ;
+    schema:latitude "45.439205" ;
+    schema:longitude "12.357292999999999" .
+
+<http://www.schoolrank.org/resource/point/Bacini_(A_Richiesta)> a schema:GeoCoordinates ;
+    schema:latitude "45.439201000000004" ;
+    schema:longitude "12.357294" .
+
+<http://www.schoolrank.org/resource/point/Burano_B_DX_per_Treport> a schema:GeoCoordinates ;
+    schema:latitude "45.487602" ;
+    schema:longitude "12.416217" .
+
+<http://www.schoolrank.org/resource/point/Burano_C_SX_per_Fte_No> a schema:GeoCoordinates ;
+    schema:latitude "45.487572" ;
+    schema:longitude "12.416754" .
+
+<http://www.schoolrank.org/resource/point/CALLE_CONVENTO_21> a schema:GeoCoordinates ;
+    schema:latitude "45.459951200000006" ;
+    schema:longitude "12.3567959" .
+
+<http://www.schoolrank.org/resource/point/CANNAREGIO_476> a schema:GeoCoordinates ;
+    schema:latitude "45.4438292" ;
+    schema:longitude "12.327037751593599" .
+
+<http://www.schoolrank.org/resource/point/Ca_D_Oro> a schema:GeoCoordinates ;
+    schema:latitude "45.440563" ;
+    schema:longitude "12.333899" .
+
+<http://www.schoolrank.org/resource/point/Ca_Rezzonico> a schema:GeoCoordinates ;
+    schema:latitude "45.433285" ;
+    schema:longitude "12.327133" .
+
+<http://www.schoolrank.org/resource/point/Capannone_(A_Richiesta)> a schema:GeoCoordinates ;
+    schema:latitude "45.454636" ;
+    schema:longitude "12.388569" .
+
+<http://www.schoolrank.org/resource/point/Caroman> a schema:GeoCoordinates ;
+    schema:latitude "45.243614" ;
+    schema:longitude "12.294001" .
+
+<http://www.schoolrank.org/resource/point/Caroman_(A_Richiesta)> a schema:GeoCoordinates ;
+    schema:latitude "45.243614" ;
+    schema:longitude "12.294" .
+
+<http://www.schoolrank.org/resource/point/Celestia> a schema:GeoCoordinates ;
+    schema:latitude "45.439079" ;
+    schema:longitude "12.349658" .
+
+<http://www.schoolrank.org/resource/point/Celestia_(A_Richiesta)> a schema:GeoCoordinates ;
+    schema:latitude "45.439079" ;
+    schema:longitude "12.34966" .
+
+<http://www.schoolrank.org/resource/point/Certosa> a schema:GeoCoordinates ;
+    schema:latitude "45.430523" ;
+    schema:longitude "12.367644" .
+
+<http://www.schoolrank.org/resource/point/Certosa_(A_Richiesta)> a schema:GeoCoordinates ;
+    schema:latitude "45.430523" ;
+    schema:longitude "12.367644" .
+
+<http://www.schoolrank.org/resource/point/Chioggia_Ptta_Vigo> a schema:GeoCoordinates ;
+    schema:latitude "45.223690000000005" ;
+    schema:longitude "12.280678" .
+
+<http://www.schoolrank.org/resource/point/Cimitero_S_Michele> a schema:GeoCoordinates ;
+    schema:latitude "45.448673" ;
+    schema:longitude "12.345977" .
+
+<http://www.schoolrank.org/resource/point/Crea> a schema:GeoCoordinates ;
+    schema:latitude "45.445278" ;
+    schema:longitude "12.321106" .
+
+<http://www.schoolrank.org/resource/point/F_TA_VENIER> a schema:GeoCoordinates ;
+    schema:latitude "45.4578161" ;
+    schema:longitude "12.350829" .
+
+<http://www.schoolrank.org/resource/point/Ferrovia_A> a schema:GeoCoordinates ;
+    schema:latitude "45.441016999999995" ;
+    schema:longitude "12.322206" .
+
+<http://www.schoolrank.org/resource/point/Ferrovia_B> a schema:GeoCoordinates ;
+    schema:latitude "45.440937" ;
+    schema:longitude "12.322042" .
+
+<http://www.schoolrank.org/resource/point/Ferrovia_C> a schema:GeoCoordinates ;
+    schema:latitude "45.440371999999996" ;
+    schema:longitude "12.321408" .
+
+<http://www.schoolrank.org/resource/point/Ferrovia_D> a schema:GeoCoordinates ;
+    schema:latitude "45.440216" ;
+    schema:longitude "12.321242" .
+
+<http://www.schoolrank.org/resource/point/Ferrovia_E> a schema:GeoCoordinates ;
+    schema:latitude "45.439873" ;
+    schema:longitude "12.32088" .
+
+<http://www.schoolrank.org/resource/point/Fte_Nove_A> a schema:GeoCoordinates ;
+    schema:latitude "45.443958" ;
+    schema:longitude "12.339143" .
+
+<http://www.schoolrank.org/resource/point/Fte_Nove_B> a schema:GeoCoordinates ;
+    schema:latitude "45.443138" ;
+    schema:longitude "12.340671" .
+
+<http://www.schoolrank.org/resource/point/Fte_Nove_C> a schema:GeoCoordinates ;
+    schema:latitude "45.443016" ;
+    schema:longitude "12.340888" .
+
+<http://www.schoolrank.org/resource/point/Fte_Nove_D> a schema:GeoCoordinates ;
+    schema:latitude "45.442867" ;
+    schema:longitude "12.341126" .
+
+<http://www.schoolrank.org/resource/point/Fusina> a schema:GeoCoordinates ;
+    schema:latitude "45.418372999999995" ;
+    schema:longitude "12.258713" .
+
+<http://www.schoolrank.org/resource/point/GIUDECCA_373> a schema:GeoCoordinates ;
+    schema:latitude "45.4258541" ;
+    schema:longitude "12.3229991170211" .
+
+<http://www.schoolrank.org/resource/point/Giardini_Biennale_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.428886" ;
+    schema:longitude "12.356096" .
+
+<http://www.schoolrank.org/resource/point/Giardini_Biennale_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.429047" ;
+    schema:longitude "12.355934" .
+
+<http://www.schoolrank.org/resource/point/Giardini_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.429759999999995" ;
+    schema:longitude "12.354997000000001" .
+
+<http://www.schoolrank.org/resource/point/Giardini_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.429848" ;
+    schema:longitude "12.354835000000001" .
+
+<http://www.schoolrank.org/resource/point/Lazzaretto_Nuovo_(A_RICHI> a schema:GeoCoordinates ;
+    schema:latitude "45.454956" ;
+    schema:longitude "12.386839" .
+
+<http://www.schoolrank.org/resource/point/Lido_(SME)_A> a schema:GeoCoordinates ;
+    schema:latitude "45.418144" ;
+    schema:longitude "12.368973" .
+
+<http://www.schoolrank.org/resource/point/Lido_(SME)_B> a schema:GeoCoordinates ;
+    schema:latitude "45.417992" ;
+    schema:longitude "12.368725" .
+
+<http://www.schoolrank.org/resource/point/Lido_(SME)_C_dir_P> a schema:GeoCoordinates ;
+    schema:latitude "45.417698" ;
+    schema:longitude "12.368246000000001" .
+
+<http://www.schoolrank.org/resource/point/Lido_(SME)_C_dir_Ve> a schema:GeoCoordinates ;
+    schema:latitude "45.417683000000004" ;
+    schema:longitude "12.368217" .
+
+<http://www.schoolrank.org/resource/point/Lido_(SME)_D> a schema:GeoCoordinates ;
+    schema:latitude "45.41748" ;
+    schema:longitude "12.367735" .
+
+<http://www.schoolrank.org/resource/point/Lido_(SME)_E> a schema:GeoCoordinates ;
+    schema:latitude "45.417358" ;
+    schema:longitude "12.36754" .
+
+<http://www.schoolrank.org/resource/point/Lido_SNicolo_(A_Richiest> a schema:GeoCoordinates ;
+    schema:latitude "45.424339" ;
+    schema:longitude "12.377112" .
+
+<http://www.schoolrank.org/resource/point/Lido_S_Nicolo_Ferry> a schema:GeoCoordinates ;
+    schema:latitude "45.425872999999996" ;
+    schema:longitude "12.378331" .
+
+<http://www.schoolrank.org/resource/point/Lido_S_Nicolo_M/N> a schema:GeoCoordinates ;
+    schema:latitude "45.424339" ;
+    schema:longitude "12.377113" .
+
+<http://www.schoolrank.org/resource/point/Madonna_dell_Orto> a schema:GeoCoordinates ;
+    schema:latitude "45.447674" ;
+    schema:longitude "12.332901" .
+
+<http://www.schoolrank.org/resource/point/Mazzorbo> a schema:GeoCoordinates ;
+    schema:latitude "45.488094" ;
+    schema:longitude "12.409512" .
+
+<http://www.schoolrank.org/resource/point/Murano_Colonna_A> a schema:GeoCoordinates ;
+    schema:latitude "45.451107" ;
+    schema:longitude "12.349192" .
+
+<http://www.schoolrank.org/resource/point/Murano_Colonna_B> a schema:GeoCoordinates ;
+    schema:latitude "45.451111" ;
+    schema:longitude "12.348869" .
+
+<http://www.schoolrank.org/resource/point/Murano_Colonna_C> a schema:GeoCoordinates ;
+    schema:latitude "45.451134" ;
+    schema:longitude "12.348564" .
+
+<http://www.schoolrank.org/resource/point/Murano_Faro_M/N> a schema:GeoCoordinates ;
+    schema:latitude "45.452663" ;
+    schema:longitude "12.354642" .
+
+<http://www.schoolrank.org/resource/point/Murano_Faro_M/S_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.452557" ;
+    schema:longitude "12.354241" .
+
+<http://www.schoolrank.org/resource/point/Murano_Museo_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.456103999999996" ;
+    schema:longitude "12.355435" .
+
+<http://www.schoolrank.org/resource/point/Murano_Museo_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.456139" ;
+    schema:longitude "12.355189" .
+
+<http://www.schoolrank.org/resource/point/Murano_Navagero> a schema:GeoCoordinates ;
+    schema:latitude "45.454693" ;
+    schema:longitude "12.356580000000001" .
+
+<http://www.schoolrank.org/resource/point/Murano_Serenella> a schema:GeoCoordinates ;
+    schema:latitude "45.454853" ;
+    schema:longitude "12.347479" .
+
+<http://www.schoolrank.org/resource/point/Ospedale> a schema:GeoCoordinates ;
+    schema:latitude "45.44088" ;
+    schema:longitude "12.344753" .
+
+<http://www.schoolrank.org/resource/point/PIAZZALE_SIRTORI> a schema:GeoCoordinates ;
+    schema:latitude "45.736579" ;
+    schema:longitude "9.330845" .
+
+<http://www.schoolrank.org/resource/point/P_LE_S_BENEDETTO> a schema:GeoCoordinates ;
+    schema:latitude "45.48679325" ;
+    schema:longitude "12.2937593466662" .
+
+<http://www.schoolrank.org/resource/point/P_LE_ZENDRINI> a schema:GeoCoordinates ;
+    schema:latitude "45.4798232" ;
+    schema:longitude "12.2898881" .
+
+<http://www.schoolrank.org/resource/point/Pellestrina_Cimitero_M/N> a schema:GeoCoordinates ;
+    schema:latitude "45.262791" ;
+    schema:longitude "12.299958" .
+
+<http://www.schoolrank.org/resource/point/Ple_Roma> a schema:GeoCoordinates ;
+    schema:latitude "45.438666999999995" ;
+    schema:longitude "12.319465" .
+
+<http://www.schoolrank.org/resource/point/Ple_Roma_(Parisi)_E> a schema:GeoCoordinates ;
+    schema:latitude "45.439388" ;
+    schema:longitude "12.318463000000001" .
+
+<http://www.schoolrank.org/resource/point/Ple_Roma_(SAndrea)_B> a schema:GeoCoordinates ;
+    schema:latitude "45.4389" ;
+    schema:longitude "12.316018" .
+
+<http://www.schoolrank.org/resource/point/Ple_Roma_(S_Andrea)_A> a schema:GeoCoordinates ;
+    schema:latitude "45.438629" ;
+    schema:longitude "12.31565" .
+
+<http://www.schoolrank.org/resource/point/Ple_Roma_(S_Chiara)_F> a schema:GeoCoordinates ;
+    schema:latitude "45.438922999999996" ;
+    schema:longitude "12.31883" .
+
+<http://www.schoolrank.org/resource/point/Ple_Roma_(S_Chiara)_G> a schema:GeoCoordinates ;
+    schema:latitude "45.438815999999996" ;
+    schema:longitude "12.319038" .
+
+<http://www.schoolrank.org/resource/point/Ple_Roma_(Scomenzera)_C> a schema:GeoCoordinates ;
+    schema:latitude "45.43985" ;
+    schema:longitude "12.317839" .
+
+<http://www.schoolrank.org/resource/point/Pta_Sabbioni_N/T> a schema:GeoCoordinates ;
+    schema:latitude "45.446976" ;
+    schema:longitude "12.424375" .
+
+<http://www.schoolrank.org/resource/point/Punta_Sabbioni_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.447338" ;
+    schema:longitude "12.424333" .
+
+<http://www.schoolrank.org/resource/point/Punta_Sabbioni_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.447639" ;
+    schema:longitude "12.424682" .
+
+<http://www.schoolrank.org/resource/point/RIVIERA_SAN_NICOLO_21> a schema:GeoCoordinates ;
+    schema:latitude "45.42904160000001" ;
+    schema:longitude "12.3818924" .
+
+<http://www.schoolrank.org/resource/point/Redentore> a schema:GeoCoordinates ;
+    schema:latitude "45.425579" ;
+    schema:longitude "12.332047" .
+
+<http://www.schoolrank.org/resource/point/Rialto_C> a schema:GeoCoordinates ;
+    schema:latitude "45.437428000000004" ;
+    schema:longitude "12.335405" .
+
+<http://www.schoolrank.org/resource/point/Rialto_D> a schema:GeoCoordinates ;
+    schema:latitude "45.437584" ;
+    schema:longitude "12.335558" .
+
+<http://www.schoolrank.org/resource/point/Rialto_Mercato> a schema:GeoCoordinates ;
+    schema:latitude "45.439453" ;
+    schema:longitude "12.335298" .
+
+<http://www.schoolrank.org/resource/point/SErasmo_Fte_Massimilian> a schema:GeoCoordinates ;
+    schema:latitude "45.445339000000004" ;
+    schema:longitude "12.391397" .
+
+<http://www.schoolrank.org/resource/point/S_Alvise> a schema:GeoCoordinates ;
+    schema:latitude "45.448704" ;
+    schema:longitude "12.329509" .
+
+<http://www.schoolrank.org/resource/point/S_Basilio> a schema:GeoCoordinates ;
+    schema:latitude "45.430534" ;
+    schema:longitude "12.320824" .
+
+<http://www.schoolrank.org/resource/point/S_Elena_C_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.425426" ;
+    schema:longitude "12.360565" .
+
+<http://www.schoolrank.org/resource/point/S_Erasmo_Capannone> a schema:GeoCoordinates ;
+    schema:latitude "45.454636" ;
+    schema:longitude "12.388567" .
+
+<http://www.schoolrank.org/resource/point/S_Erasmo_Chiesa> a schema:GeoCoordinates ;
+    schema:latitude "45.459461" ;
+    schema:longitude "12.410089" .
+
+<http://www.schoolrank.org/resource/point/S_Erasmo_Punta_Vela> a schema:GeoCoordinates ;
+    schema:latitude "45.468379999999996" ;
+    schema:longitude "12.42021" .
+
+<http://www.schoolrank.org/resource/point/S_Giorgio> a schema:GeoCoordinates ;
+    schema:latitude "45.42947" ;
+    schema:longitude "12.342235" .
+
+<http://www.schoolrank.org/resource/point/S_Lazzaro> a schema:GeoCoordinates ;
+    schema:latitude "45.412113" ;
+    schema:longitude "12.359925" .
+
+<http://www.schoolrank.org/resource/point/S_MARCO_3042> a schema:GeoCoordinates ;
+    schema:latitude "45.43482885" ;
+    schema:longitude "12.334024740406196" .
+
+<http://www.schoolrank.org/resource/point/S_Marco_(Giardinetti)_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.432487" ;
+    schema:longitude "12.338417" .
+
+<http://www.schoolrank.org/resource/point/S_Marco_(Vallaresso)_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.432186" ;
+    schema:longitude "12.337525" .
+
+<http://www.schoolrank.org/resource/point/S_Marco_(Vallaresso)_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.432125" ;
+    schema:longitude "12.337271000000001" .
+
+<http://www.schoolrank.org/resource/point/S_Maria_del_Giglio> a schema:GeoCoordinates ;
+    schema:latitude "45.431430999999996" ;
+    schema:longitude "12.332637" .
+
+<http://www.schoolrank.org/resource/point/S_Maria_del_Mare_N/T> a schema:GeoCoordinates ;
+    schema:latitude "45.332737" ;
+    schema:longitude "12.316975" .
+
+<http://www.schoolrank.org/resource/point/S_Marta> a schema:GeoCoordinates ;
+    schema:latitude "45.433571" ;
+    schema:longitude "12.31126" .
+
+<http://www.schoolrank.org/resource/point/S_Pietro_di_Castello> a schema:GeoCoordinates ;
+    schema:latitude "45.433834000000004" ;
+    schema:longitude "12.361842" .
+
+<http://www.schoolrank.org/resource/point/S_Samuele> a schema:GeoCoordinates ;
+    schema:latitude "45.433479" ;
+    schema:longitude "12.3276" .
+
+<http://www.schoolrank.org/resource/point/S_Servolo> a schema:GeoCoordinates ;
+    schema:latitude "45.419616999999995" ;
+    schema:longitude "12.35535" .
+
+<http://www.schoolrank.org/resource/point/S_Stae> a schema:GeoCoordinates ;
+    schema:latitude "45.441746" ;
+    schema:longitude "12.330798" .
+
+<http://www.schoolrank.org/resource/point/S_Toma_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.435249" ;
+    schema:longitude "12.328128" .
+
+<http://www.schoolrank.org/resource/point/S_Toma_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.435184" ;
+    schema:longitude "12.327917" .
+
+<http://www.schoolrank.org/resource/point/S_Vio> a schema:GeoCoordinates ;
+    schema:latitude "45.431098999999996" ;
+    schema:longitude "12.330381" .
+
+<http://www.schoolrank.org/resource/point/S_Zaccaria_(Danieli)_E> a schema:GeoCoordinates ;
+    schema:latitude "45.433384000000004" ;
+    schema:longitude "12.342215" .
+
+<http://www.schoolrank.org/resource/point/S_Zaccaria_(Danieli)_F> a schema:GeoCoordinates ;
+    schema:latitude "45.433341999999996" ;
+    schema:longitude "12.342007" .
+
+<http://www.schoolrank.org/resource/point/S_Zaccaria_(Jolanda)_C> a schema:GeoCoordinates ;
+    schema:latitude "45.433491" ;
+    schema:longitude "12.343048" .
+
+<http://www.schoolrank.org/resource/point/S_Zaccaria_(Jolanda)_D> a schema:GeoCoordinates ;
+    schema:latitude "45.433456" ;
+    schema:longitude "12.342808999999999" .
+
+<http://www.schoolrank.org/resource/point/S_Zaccaria_(MVE)_B> a schema:GeoCoordinates ;
+    schema:latitude "45.433514" ;
+    schema:longitude "12.344095" .
+
+<http://www.schoolrank.org/resource/point/S_Zaccaria_(Pieta_)_A> a schema:GeoCoordinates ;
+    schema:latitude "45.433395000000004" ;
+    schema:longitude "12.344964" .
+
+<http://www.schoolrank.org/resource/point/Sacca_Fisola_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.429008" ;
+    schema:longitude "12.315648" .
+
+<http://www.schoolrank.org/resource/point/Sacca_Fisola_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.428959000000006" ;
+    schema:longitude "12.316327000000001" .
+
+<http://www.schoolrank.org/resource/point/Salute> a schema:GeoCoordinates ;
+    schema:latitude "45.431171" ;
+    schema:longitude "12.334374" .
+
+<http://www.schoolrank.org/resource/point/San_Giorgio_(A_Richiesta)> a schema:GeoCoordinates ;
+    schema:latitude "45.42947" ;
+    schema:longitude "12.342235" .
+
+<http://www.schoolrank.org/resource/point/Sant_Elena> a schema:GeoCoordinates ;
+    schema:latitude "45.42532" ;
+    schema:longitude "12.360782" .
+
+<http://www.schoolrank.org/resource/point/Spirito_Santo> a schema:GeoCoordinates ;
+    schema:latitude "45.428309999999996" ;
+    schema:longitude "12.331958" .
+
+<http://www.schoolrank.org/resource/point/Torcello> a schema:GeoCoordinates ;
+    schema:latitude "45.495090000000005" ;
+    schema:longitude "12.412183" .
+
+<http://www.schoolrank.org/resource/point/Torcello_(A_Richiesta)> a schema:GeoCoordinates ;
+    schema:latitude "45.495090000000005" ;
+    schema:longitude "12.412183" .
+
+<http://www.schoolrank.org/resource/point/Tre_Archi> a schema:GeoCoordinates ;
+    schema:latitude "45.446289" ;
+    schema:longitude "12.31978" .
+
+<http://www.schoolrank.org/resource/point/Treporti> a schema:GeoCoordinates ;
+    schema:latitude "45.471558" ;
+    schema:longitude "12.447123" .
+
+<http://www.schoolrank.org/resource/point/Tronchetto_B_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.440094" ;
+    schema:longitude "12.306348" .
+
+<http://www.schoolrank.org/resource/point/Tronchetto_B__DX> a schema:GeoCoordinates ;
+    schema:latitude "45.440308" ;
+    schema:longitude "12.306533" .
+
+<http://www.schoolrank.org/resource/point/Tronchetto_Mercato> a schema:GeoCoordinates ;
+    schema:latitude "45.441383" ;
+    schema:longitude "12.309408" .
+
+<http://www.schoolrank.org/resource/point/Tronchetto_N/T> a schema:GeoCoordinates ;
+    schema:latitude "45.438023" ;
+    schema:longitude "12.303988" .
+
+<http://www.schoolrank.org/resource/point/VIALE_SAN_MARCO> a schema:GeoCoordinates ;
+    schema:latitude "45.5615953" ;
+    schema:longitude "12.298916" .
+
+<http://www.schoolrank.org/resource/point/VIALE_S_MARCO_182> a schema:GeoCoordinates ;
+    schema:latitude "45.4781109" ;
+    schema:longitude "12.265883" .
+
+<http://www.schoolrank.org/resource/point/VIALE_S_MARCO_67> a schema:GeoCoordinates ;
+    schema:latitude "45.4781109" ;
+    schema:longitude "12.265883" .
+
+<http://www.schoolrank.org/resource/point/VIA_ASSEGGIANO> a schema:GeoCoordinates ;
+    schema:latitude "45.50029075" ;
+    schema:longitude "12.171889521836901" .
+
+<http://www.schoolrank.org/resource/point/VIA_ASSEGGIANO_163> a schema:GeoCoordinates ;
+    schema:latitude "45.50029075" ;
+    schema:longitude "12.171889521836901" .
+
+<http://www.schoolrank.org/resource/point/VIA_ASSEGGIANO_4> a schema:GeoCoordinates ;
+    schema:latitude "45.4998435" ;
+    schema:longitude "12.168794" .
+
+<http://www.schoolrank.org/resource/point/VIA_BAGLIONI> a schema:GeoCoordinates ;
+    schema:latitude "43.1097773" ;
+    schema:longitude "12.38923" .
+
+<http://www.schoolrank.org/resource/point/VIA_BISSUOLA> a schema:GeoCoordinates ;
+    schema:latitude "45.4952863" ;
+    schema:longitude "12.2498922" .
+
+<http://www.schoolrank.org/resource/point/VIA_BOITO_8> a schema:GeoCoordinates ;
+    schema:latitude "45.4897042" ;
+    schema:longitude "12.1472506" .
+
+<http://www.schoolrank.org/resource/point/VIA_BUOZZI> a schema:GeoCoordinates ;
+    schema:latitude "42.7649163" ;
+    schema:longitude "11.1136781" .
+
+<http://www.schoolrank.org/resource/point/VIA_CANAL> a schema:GeoCoordinates ;
+    schema:latitude "46.7704914" ;
+    schema:longitude "9.060644" .
+
+<http://www.schoolrank.org/resource/point/VIA_CAPPUCCINA_74> a schema:GeoCoordinates ;
+    schema:latitude "45.4857911" ;
+    schema:longitude "12.2376746" .
+
+<http://www.schoolrank.org/resource/point/VIA_CATALANI> a schema:GeoCoordinates ;
+    schema:latitude "45.0742499" ;
+    schema:longitude "7.5713946" .
+
+<http://www.schoolrank.org/resource/point/VIA_CAVALLETTO> a schema:GeoCoordinates ;
+    schema:latitude "45.0527833" ;
+    schema:longitude "9.6914018" .
+
+<http://www.schoolrank.org/resource/point/VIA_CICOGNARA> a schema:GeoCoordinates ;
+    schema:latitude "45.7721399" ;
+    schema:longitude "12.0336968" .
+
+<http://www.schoolrank.org/resource/point/VIA_DEI_BOTTA_323> a schema:GeoCoordinates ;
+    schema:latitude "45.319024" ;
+    schema:longitude "12.316837800000002" .
+
+<http://www.schoolrank.org/resource/point/VIA_DELL_EDERA_33> a schema:GeoCoordinates ;
+    schema:latitude "45.48283350000001" ;
+    schema:longitude "12.1925419" .
+
+<http://www.schoolrank.org/resource/point/VIA_DEL_GAZZATO_6> a schema:GeoCoordinates ;
+    schema:latitude "45.5044881" ;
+    schema:longitude "12.2305205" .
+
+<http://www.schoolrank.org/resource/point/VIA_DEL_MIGLIO> a schema:GeoCoordinates ;
+    schema:latitude "45.4926126" ;
+    schema:longitude "12.2669068" .
+
+<http://www.schoolrank.org/resource/point/VIA_GIARDINO_16> a schema:GeoCoordinates ;
+    schema:latitude "45.4946216" ;
+    schema:longitude "12.246140978804" .
+
+<http://www.schoolrank.org/resource/point/VIA_GOBBI_1> a schema:GeoCoordinates ;
+    schema:latitude "45.4927419" ;
+    schema:longitude "12.293649" .
+
+<http://www.schoolrank.org/resource/point/VIA_GOBBI_13> a schema:GeoCoordinates ;
+    schema:latitude "45.4927419" ;
+    schema:longitude "12.293649" .
+
+<http://www.schoolrank.org/resource/point/VIA_IVANCICH> a schema:GeoCoordinates ;
+    schema:latitude "45.4887338" ;
+    schema:longitude "12.199051400000002" .
+
+<http://www.schoolrank.org/resource/point/VIA_MALAMOCCO_1> a schema:GeoCoordinates ;
+    schema:latitude "45.3887988" ;
+    schema:longitude "12.3511193" .
+
+<http://www.schoolrank.org/resource/point/VIA_MONTEVERDI> a schema:GeoCoordinates ;
+    schema:latitude "45.3669838" ;
+    schema:longitude "10.4250736" .
+
+<http://www.schoolrank.org/resource/point/VIA_MONTE_BERICO_16> a schema:GeoCoordinates ;
+    schema:latitude "45.5071258" ;
+    schema:longitude "12.2549146" .
+
+<http://www.schoolrank.org/resource/point/VIA_MONTE_CERVINO> a schema:GeoCoordinates ;
+    schema:latitude "43.8764426" ;
+    schema:longitude "12.8057665" .
+
+<http://www.schoolrank.org/resource/point/VIA_MONTE_FADALTO> a schema:GeoCoordinates ;
+    schema:latitude "45.5060532" ;
+    schema:longitude "12.2839609" .
+
+<http://www.schoolrank.org/resource/point/VIA_MORANZANI_2> a schema:GeoCoordinates ;
+    schema:latitude "45.4363583" ;
+    schema:longitude "12.205309" .
+
+<http://www.schoolrank.org/resource/point/VIA_ORTOLA> a schema:GeoCoordinates ;
+    schema:latitude "44.0439927" ;
+    schema:longitude "10.1374329" .
+
+<http://www.schoolrank.org/resource/point/VIA_PACCAGNELLA_11> a schema:GeoCoordinates ;
+    schema:latitude "45.5100456" ;
+    schema:longitude "12.2232479" .
+
+<http://www.schoolrank.org/resource/point/VIA_PARCO_FERROVIARIO> a schema:GeoCoordinates ;
+    schema:latitude "45.4786736" ;
+    schema:longitude "12.1985203" .
+
+<http://www.schoolrank.org/resource/point/VIA_PASSO> a schema:GeoCoordinates ;
+    schema:latitude "43.7866937" ;
+    schema:longitude "12.8580992" .
+
+<http://www.schoolrank.org/resource/point/VIA_PASSO_/G> a schema:GeoCoordinates ;
+    schema:latitude "45.9169409" ;
+    schema:longitude "12.6638923" .
+
+<http://www.schoolrank.org/resource/point/VIA_PASSO_CAMPALTO_/O> a schema:GeoCoordinates ;
+    schema:latitude "45.4864627" ;
+    schema:longitude "12.2972431" .
+
+<http://www.schoolrank.org/resource/point/VIA_PASSO_S_BOLDO_26> a schema:GeoCoordinates ;
+    schema:latitude "45.5048713" ;
+    schema:longitude "12.2786241" .
+
+<http://www.schoolrank.org/resource/point/VIA_PENELLO_1> a schema:GeoCoordinates ;
+    schema:latitude "45.52699335" ;
+    schema:longitude "12.2369021141711" .
+
+<http://www.schoolrank.org/resource/point/VIA_PIRAGHETTO_10> a schema:GeoCoordinates ;
+    schema:latitude "45.4886074" ;
+    schema:longitude "12.2279898" .
+
+<http://www.schoolrank.org/resource/point/VIA_PORTO_DI_CAVERGNAGO> a schema:GeoCoordinates ;
+    schema:latitude "45.4867282" ;
+    schema:longitude "12.276655" .
+
+<http://www.schoolrank.org/resource/point/VIA_SABBADINO> a schema:GeoCoordinates ;
+    schema:latitude "45.47680250000001" ;
+    schema:longitude "12.5416211" .
+
+<http://www.schoolrank.org/resource/point/VIA_SANDRO_GALLO> a schema:GeoCoordinates ;
+    schema:latitude "45.39598170000001" ;
+    schema:longitude "12.3567711" .
+
+<http://www.schoolrank.org/resource/point/VIA_TEVERE_93> a schema:GeoCoordinates ;
+    schema:latitude "45.4975825" ;
+    schema:longitude "12.2571153" .
+
+<http://www.schoolrank.org/resource/point/VIA_TIEPOLO_8> a schema:GeoCoordinates ;
+    schema:latitude "45.4847972" ;
+    schema:longitude "12.1759961" .
+
+<http://www.schoolrank.org/resource/point/VIA_TRIESTE_203> a schema:GeoCoordinates ;
+    schema:latitude "45.477017" ;
+    schema:longitude "12.2099696" .
+
+<http://www.schoolrank.org/resource/point/VIA_TRIESTE_3> a schema:GeoCoordinates ;
+    schema:latitude "45.477017" ;
+    schema:longitude "12.2099696" .
+
+<http://www.schoolrank.org/resource/point/VIA_TRIESTINA_0> a schema:GeoCoordinates ;
+    schema:latitude "45.511578" ;
+    schema:longitude "12.3413905" .
+
+<http://www.schoolrank.org/resource/point/VIA_VICENTINO> a schema:GeoCoordinates ;
+    schema:latitude "45.527203" ;
+    schema:longitude "12.1919325" .
+
+<http://www.schoolrank.org/resource/point/VIA_ZANDOMENEGHI_1> a schema:GeoCoordinates ;
+    schema:latitude "45.5118731" ;
+    schema:longitude "12.2108403" .
+
+<http://www.schoolrank.org/resource/point/Vignole> a schema:GeoCoordinates ;
+    schema:latitude "45.443707" ;
+    schema:longitude "12.376256" .
+
+<http://www.schoolrank.org/resource/point/Vignole_(A_Richiesta)> a schema:GeoCoordinates ;
+    schema:latitude "45.443707" ;
+    schema:longitude "12.376256" .
+
+<http://www.schoolrank.org/resource/point/Zattere_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.429153" ;
+    schema:longitude "12.3268" .
+
+<http://www.schoolrank.org/resource/point/Zattere_Gesuati> a schema:GeoCoordinates ;
+    schema:latitude "45.42905" ;
+    schema:longitude "12.327344" .
+
+<http://www.schoolrank.org/resource/point/Zattere_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.42926" ;
+    schema:longitude "12.32628" .
+
+<http://www.schoolrank.org/resource/point/Zitelle_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.426624" ;
+    schema:longitude "12.337678" .
+
+<http://www.schoolrank.org/resource/point/Zitelle_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.42672" ;
+    schema:longitude "12.337905000000001" .
+
+<http://www.schoolrank.org/resource/point/CASTELLO_639> a schema:GeoCoordinates ;
+    schema:latitude "45.4346809" ;
+    schema:longitude "12.350914064274301" .
+
+<http://www.schoolrank.org/resource/point/Casino_di_Venezia> a schema:GeoCoordinates ;
+    schema:latitude "45.442341" ;
+    schema:longitude "12.329644" .
+
+<http://www.schoolrank.org/resource/point/FONDAMENTA_RADI> a schema:GeoCoordinates ;
+    schema:latitude "27.3626503" ;
+    schema:longitude "91.7254731" .
+
+<http://www.schoolrank.org/resource/point/Giudecca_Palanca_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.426899" ;
+    schema:longitude "12.325401" .
+
+<http://www.schoolrank.org/resource/point/Giudecca_Palanca_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.426849" ;
+    schema:longitude "12.325638" .
+
+<http://www.schoolrank.org/resource/point/Guglie> a schema:GeoCoordinates ;
+    schema:latitude "45.444424" ;
+    schema:longitude "12.324183" .
+
+<http://www.schoolrank.org/resource/point/Guglie_dx> a schema:GeoCoordinates ;
+    schema:latitude "45.444294" ;
+    schema:longitude "12.32445" .
+
+<http://www.schoolrank.org/resource/point/Murano_Da_Mula> a schema:GeoCoordinates ;
+    schema:latitude "45.456115999999994" ;
+    schema:longitude "12.351936" .
+
+<http://www.schoolrank.org/resource/point/Murano_Venier> a schema:GeoCoordinates ;
+    schema:latitude "45.457446999999995" ;
+    schema:longitude "12.351191" .
+
+<http://www.schoolrank.org/resource/point/Rialto> a schema:GeoCoordinates ;
+    schema:latitude "45.436981" ;
+    schema:longitude "12.334541" .
+
+<http://www.schoolrank.org/resource/point/Rialto_B> a schema:GeoCoordinates ;
+    schema:latitude "45.437088" ;
+    schema:longitude "12.334779" .
+
+<http://www.schoolrank.org/resource/point/Riva_de_Biasio_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.441829999999996" ;
+    schema:longitude "12.325078999999999" .
+
+<http://www.schoolrank.org/resource/point/Riva_de_Biasio_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.441998" ;
+    schema:longitude "12.325667" .
+
+<http://www.schoolrank.org/resource/point/S_Angelo> a schema:GeoCoordinates ;
+    schema:latitude "45.435596000000004" ;
+    schema:longitude "12.33035" .
+
+<http://www.schoolrank.org/resource/point/S_Marcuola-Casino_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.442444" ;
+    schema:longitude "12.32882" .
+
+<http://www.schoolrank.org/resource/point/S_Marcuola-Casino_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.442513" ;
+    schema:longitude "12.328278" .
+
+<http://www.schoolrank.org/resource/point/S_Silvestro> a schema:GeoCoordinates ;
+    schema:latitude "45.436809999999994" ;
+    schema:longitude "12.333188" .
+
+<http://www.schoolrank.org/resource/point/VIA_BOSSO> a schema:GeoCoordinates ;
+    schema:latitude "45.48099620000001" ;
+    schema:longitude "12.198472" .
+
+<http://www.schoolrank.org/resource/point/VIA_BUONO_DA_MALAMOCCO> a schema:GeoCoordinates ;
+    schema:latitude "45.3694323" ;
+    schema:longitude "12.3377451" .
+
+<http://www.schoolrank.org/resource/point/VIA_CAPPUCCINA_/D> a schema:GeoCoordinates ;
+    schema:latitude "45.4879545" ;
+    schema:longitude "12.238945" .
+
+<http://www.schoolrank.org/resource/point/VIA_CASTELLANA_15> a schema:GeoCoordinates ;
+    schema:latitude "45.53932215" ;
+    schema:longitude "12.1752163474427" .
+
+<http://www.schoolrank.org/resource/point/VIA_CIMA_D_ASTA_8> a schema:GeoCoordinates ;
+    schema:latitude "45.506028" ;
+    schema:longitude "12.2655683" .
+
+<http://www.schoolrank.org/resource/point/VIA_P_KOLBE> a schema:GeoCoordinates ;
+    schema:latitude "45.4843994" ;
+    schema:longitude "12.2455031132946" .
+
+<http://www.schoolrank.org/resource/point/VIA_VIRGILIO> a schema:GeoCoordinates ;
+    schema:latitude "45.4959117" ;
+    schema:longitude "12.2626993" .
+
+<http://www.schoolrank.org/resource/point/Arsenale_DX> a schema:GeoCoordinates ;
+    schema:latitude "45.432774" ;
+    schema:longitude "12.348552" .
+
+<http://www.schoolrank.org/resource/point/Arsenale_SX> a schema:GeoCoordinates ;
+    schema:latitude "45.432896" ;
+    schema:longitude "12.34833" .
+
+<http://www.schoolrank.org/resource/point/VIA_PERLA> a schema:GeoCoordinates ;
+    schema:latitude "45.8095906" ;
+    schema:longitude "8.803722800000003" .
+
+<http://www.schoolrank.org/resource/point/VIA_PERLAN> a schema:GeoCoordinates ;
+    schema:latitude "45.4919594" ;
+    schema:longitude "12.212009599999998" .
+
